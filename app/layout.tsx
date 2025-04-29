@@ -35,8 +35,15 @@ export default function RootLayout({
             </div>
         </header>
         {children}
-        <footer>
-
+        <footer className="flex items-center">
+          <div className="p-4">
+            Site by <code>CodeByDex</code> contribute to it on <a href="https://github.com/CodeByDex/findlay-pride-web" className="underline">Github</a>. 
+          </div>
+          <div>
+            <a href="https://www.facebook.com/FindlayPride" >
+              <Image src="/icons8-facebook.svg" alt="facebook" width={30} height={30} className="rounded-full" />
+            </a>
+          </div>
         </footer>
       </body>
     </html>
