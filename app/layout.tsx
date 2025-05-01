@@ -41,17 +41,20 @@ export default function RootLayout({
         </header>
         {children}
         <footer className="p-5">
-          <div>
-            <Link href="/about">About</Link>
-          </div>
           <div className="flex items-center">
-            <div className="">
-              Site by <code>CodeByDex</code> contribute to it on <Link href="https://github.com/CodeByDex/findlay-pride-web" className="underline">Github</Link>.
-            </div>
+            <div><Link href="/about">About</Link></div>
             <div className="ml-5">
               <Link href="https://www.facebook.com/FindlayPride" >
                 <Image src="/icons8-facebook.svg" alt="facebook" width={30} height={30} className="rounded-full" />
               </Link>
+            </div>
+          </div>
+          <div className="flex items-center">
+            <div className="text-sm">
+              Site by <code>CodeByDex</code> contribute to it on <Link href="https://github.com/CodeByDex/findlay-pride-web" className="underline">Github</Link>.
+            </div>
+            <div className="ml-5 text-sm">
+              Designs and other contributions by <Link href="https://www.meiafelice.com/" className="underline">Maria Iafelice</Link>
             </div>
           </div>
         </footer>
