@@ -48,6 +48,9 @@ export const metadata: Metadata = {
       },
     ],
   },
+  icons: {
+    icon: "/PrideF.png",
+  },
 };
 
 export default function RootLayout({
