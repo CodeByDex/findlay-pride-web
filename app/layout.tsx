@@ -80,6 +80,9 @@ export default function RootLayout({
               </Link>
             </div>
           </div>
+          <div>
+            <div><Link href="mailto:contact@findlaypride.com" className="underline">contact@findlaypride.com</Link></div>
+          </div>
           <div className="flex items-center">
             <div className="text-sm">
               Site by <code>CodeByDex</code> contribute to it on <Link href="https://github.com/CodeByDex/findlay-pride-web" className="underline">Github</Link>.
