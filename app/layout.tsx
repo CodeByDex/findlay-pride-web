@@ -16,7 +16,38 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Findlay Pride",
-  description: "Creating strong communities"
+  description: "Creating strong communities",
+  keywords: [
+    "Findlay",
+    "Pride",
+    "Ohio",
+    "LGBTQ+",],
+  authors: [
+    {
+      name: "Ryan Spath",
+      url: "https://github.com/CodeByDex"
+    }, {
+      name: "Maria Iafelice",
+      url: "https://www.meiafelice.com/"
+    }],
+  alternates: {
+    languages: {
+      "en-US": "/",
+    },
+  },
+  openGraph: {
+    title: "Findlay Pride",
+    description: "Creating strong communities",
+    url: "https://findlaypride.com",
+    siteName: "Findlay Pride",
+    images: [
+      {
+        url: "/PrideF.png",
+        width: 800,
+        height: 600,
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
