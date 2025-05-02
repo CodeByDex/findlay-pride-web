@@ -28,7 +28,7 @@ const events: Event[] = [
 
 export default function EventPage() {
     return (
-        <main>
+        <main className="max-w-3/4">
             {events.map((event, index) => (
                 <EventComponent key={index} eventProps={event} />
             ))}
