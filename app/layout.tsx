@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
+import siteLogo from "../public/PrideF.png";
+import fbLogo from "../public/icons8-facebook.svg";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -65,7 +67,7 @@ export default function RootLayout({
       >
         <header className="p-5 flex items-center">
           <Link href="/" className="flex items-center">
-            <Image src="/PrideF.png" alt={"the letter f stylized like a pride flag"} width={50} height={50} className="rounded-full" />
+            <Image src={siteLogo} alt={"the letter f stylized like a pride flag"} width={50} height={50} className="rounded-full" />
           </Link>
           <div className="text-lg ml-5">
             Findlay Pride
@@ -79,7 +81,7 @@ export default function RootLayout({
             <div><Link href="/about">About</Link></div>
             <div className="ml-5">
               <Link href="https://www.facebook.com/FindlayPride" >
-                <Image src="/icons8-facebook.svg" alt="facebook" width={30} height={30} className="rounded-full" />
+                <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
               </Link>
             </div>
           </div>
