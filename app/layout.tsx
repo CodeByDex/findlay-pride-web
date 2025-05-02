@@ -16,12 +16,12 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Findlay Pride",
-  description: "Creating strong communities",
+  description: "Creating strong communities. Your local source for all things Pride related happening in Findlay, Ohio.",
   keywords: [
-    "Findlay",
-    "Pride",
-    "Ohio",
-    "LGBTQ+",],
+    "Findlay", "Ohio", "Findlay, Ohio", "Findlay, OH", "OH", "45840", "hancock county", "hancock", "county",
+    "Pride", "LGBTQ+", "lesbbian", "gay", "bisexual", "bi", "trans", "transgender", "queer", "non-binary",
+    "events", "community", "engagement"
+  ],
   authors: [
     {
       name: "Ryan Spath",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Findlay Pride",
-    description: "Creating strong communities",
+    description: "Creating strong communities. Your local source for all things Pride related happening in Findlay, Ohio.",
     url: "https://findlaypride.com",
     siteName: "Findlay Pride",
     images: [
