@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     }],
   alternates: {
     languages: {
-      "en-US": "/",
+      "en-US": "https://findlaypride.com",
     },
   },
   openGraph: {
