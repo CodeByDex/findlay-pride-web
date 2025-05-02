@@ -11,7 +11,9 @@ const events: Event[] = [
         organizer: "Sample Organizer",
         organizerURI: "https://example.com/organizer",
         eventURI: "https://example.com/event",
-        tags: ["sample", "event"]
+        tags: ["sample", "event"],
+        imageURI: "/PrideF.png",
+        imageAlt: "Sample Event Image",
     },
     {
         name: "Sample Event2",
@@ -22,7 +24,9 @@ const events: Event[] = [
         organizer: "Sample Organizer",
         organizerURI: "https://example.com/organizer",
         eventURI: "https://example.com/event",
-        tags: ["sample", "event"]
+        tags: ["sample", "event"],
+        imageURI: "/PrideF.png",
+        imageAlt: "Sample Event Image",
     },
 ];
 

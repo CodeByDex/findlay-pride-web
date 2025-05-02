@@ -1,14 +1,20 @@
 import React from 'react';
 import { Event } from '@data/type/Event'
+import Image from 'next/image';
 
 
 export function EventComponent({ eventProps }: { eventProps: Event }) {
 
     return (
         <div className="shadow-box flex flex-col">
-            <div className='mb-4 mr-4'><h2>{eventProps.name}</h2></div>
+            <div className='mb-4 mr-4 pl-10 text-2xl'><h2>{eventProps.name}</h2></div>
             <div className="flex flex-row flex-wrap">
-                <div className='mb-4 mr-4 min-w-1/4'>
+                <div className='mb-4 mr-4 min-w-1/4 text-sm'>
+                    {eventProps.imageURI && (
+                        <div className='justify-items-center'>
+                            <Image src={eventProps.imageURI} alt={eventProps.imageAlt} width={100} height={100} />
+                        </div>
+                    )}
                     <div>{eventProps.startDate.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })} -</div>
                     <div className='text-right'>{eventProps.endDate.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</div>
                     <div className='text-center'>{eventProps.location}</div>
