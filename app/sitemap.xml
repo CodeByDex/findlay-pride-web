@@ -7,4 +7,8 @@
     <loc>https://findlaypride.com/about</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://findlaypride.com/volunteer</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>
