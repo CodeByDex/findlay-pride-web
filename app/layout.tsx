@@ -82,12 +82,12 @@ export default function RootLayout({
         <footer className="p-5">
           <div className="flex items-center gap-5">
             <div className="">
-              <Link href="https://www.facebook.com/FindlayPride" >
+              <Link href="https://facebook.com/FindlayPride" target="_blank">
                 <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
               </Link>
             </div>
             <div className="">
-              <Link href="https://bsky.app/profile/findlaypride.com" >
+              <Link href="https://bsky.app/profile/findlaypride.com" target="_blank">
                 <Image src={bsLogo} alt="bluesky" width={30} height={30} className="rounded-full" />
               </Link>
             </div>
@@ -98,10 +98,10 @@ export default function RootLayout({
           </div>
           <div className="flex items-center gap-5 text-sm">
             <div className="">
-              Site by <code>CodeByDex</code> contribute to it on <Link href="https://github.com/CodeByDex/findlay-pride-web" className="underline">Github</Link>.
+              Site by <code>CodeByDex</code> contribute to it on <Link href="https://github.com/CodeByDex/findlay-pride-web" className="underline" target="_blank">Github</Link>.
             </div>
             <div className="">
-              Designs and other contributions by <Link href="https://www.meiafelice.com/" className="underline">Maria Iafelice</Link>
+              Designs and other contributions by <Link href="https://www.meiafelice.com/" className="underline" target="_blank">Maria Iafelice</Link>
             </div>
           </div>
         </footer>
