@@ -15,4 +15,8 @@
     <loc>https://findlaypride.com/events</loc>
     <changefreq>weekly</changefreq>
   </url>
+  <url>
+    <loc>https://findlaypride.com/faq</loc>
+    <changefreq>weekly</changefreq>
+  </url>
 </urlset>

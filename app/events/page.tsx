@@ -2,6 +2,12 @@ import { EventComponent } from "@/component/event"
 import events from "@/data/eventDB";
 import Link from "next/link";
 
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Findlay Pride - Events", 
+  description: "Listing of events happening in Findlay, Ohio for Pride Month.",
+}
+
 export default function EventPage() {
     return (
         <main className="sm:max-w-5/6 md:max-w-3/4 flex flex-col gap-[32px]">

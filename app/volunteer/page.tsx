@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Findlay Pride - Volunteer", 
+  description: "Volunteer opportunities for Findlay Pride.",
+}
+
 export default function Home() {
   return (
     <main className="justify-items-center font-[family-name:var(--font-geist-sans)] sm:max-w-5/6 md:max-w-3/4">

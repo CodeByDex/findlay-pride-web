@@ -1,5 +1,11 @@
 import './styles.css';
 import Link from 'next/link';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Findlay Pride - FAQ", 
+  description: "Frequent questions about Findlay Pride.",
+}
 
 export default function Home() {
     return (

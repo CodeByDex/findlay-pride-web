@@ -1,3 +1,9 @@
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Findlay Pride - About", 
+  description: "Who we are and what we do.",
+}
+
 export default function Home() {
     return (
         <main className="justify-items-center sm:max-w-5/6 md:max-w-3/4 gap-16  font-[family-name:var(--font-geist-sans)]">
