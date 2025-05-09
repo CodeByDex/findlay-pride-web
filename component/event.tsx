@@ -1,6 +1,7 @@
 import React from 'react';
 import { Event } from '@data/type/Event'
 import Image from 'next/image';
+import Link from 'next/link';
 
 
 export function EventComponent({ eventProps }: { eventProps: Event }) {
@@ -9,7 +10,7 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
         <div className="shadow-box flex flex-col">
             <div className='text-2xl'>
                 <h2>{eventProps.organizer}: {eventProps.name}</h2>
-                <a href={eventProps.organizerURI} className='underline text-sm'>{eventProps.organizerURI}</a>
+                {eventProps.organizerURI && (<Link href={"https://"+eventProps.organizerURI} className='underline text-sm' target='_blank'>{eventProps.organizerURI}</Link>)}
             </div>
             <div className="flex flex-row flex-wrap">
                 <div className='md:w-1/4 w-full p-4'>
@@ -25,7 +26,7 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
                 <div className=' md:w-3/5 w-full'>
                     <p>{eventProps.description}</p>
                     {eventProps.eventURI && (
-                        <p><strong>Link:</strong> <a href={eventProps.eventURI} className='underline'>{eventProps.eventURI}</a></p>
+                        <p><strong>Link:</strong> <Link href={"https://"+eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p>
                     )}
                     {eventProps.tags && eventProps.tags.length > 0 && (
                         <p><strong>Tags:</strong> {eventProps.tags.join(', ')}</p>
