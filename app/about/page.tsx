@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <main className="justify-items-center sm:max-w-5/6 md:max-w-3/4 p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+        <main className="justify-items-center sm:max-w-5/6 md:max-w-3/4 gap-16  font-[family-name:var(--font-geist-sans)]">
             <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <h2 className="text-lg text-center min-w-full">Who We Are</h2>
                 <div>We are a group of Findlay Citizens committed to helping Findlay grow as a place of belonging and opportunity.  As a grassroots effort, and while not formally affiliated with LGBTQ+ Spectrum of Findlay or Kaleidoscope Youth Center, we welcome collaboration with any groups inspired by fostering community connections. </div>

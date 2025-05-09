@@ -31,10 +31,10 @@ body {
 
 main {
   flex: 1;
+  @apply pl-8 pr-8
 }
 
 .shadow-box {
   box-shadow: 0 0 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(0, 0, 0, 0);
-  margin: 20px;
-  padding: 5px;
+  @apply rounded-lg p-4
 }

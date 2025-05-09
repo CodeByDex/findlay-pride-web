@@ -18,8 +18,8 @@ const events: Event[] = [
     {
         name: "Pride Month Drink Special",
         description: "Stop in all month long to check out our drink specials for Pride Month!",
-        startDate: new Date(2025, 5, 1,0, 0),
-        endDate: new Date(2025, 5, 30, 23, 5),
+        startDate: new Date(2025, 5, 1, 0, 0),
+        endDate: new Date(2025, 5, 29, 23, 5),
         location: "Wine Merchant",
         organizer: "Wine Merchant",
         organizerURI: "facebook.com/findlaywinemerchant",
@@ -29,7 +29,7 @@ const events: Event[] = [
     {
         name: "Pride Month Coffee Special",
         description: "Check out Amici for fun drink specials, check back soon for more details!",
-        startDate: new Date(2025, 5, 1,0, 0),
+        startDate: new Date(2025, 5, 1, 0, 0),
         endDate: new Date(2025, 5, 30, 23, 5),
         location: "Coffee Amici",
         organizer: "Coffee Amici",
@@ -42,12 +42,12 @@ const events: Event[] = [
 export default function EventPage() {
     return (
         <main className="sm:max-w-5/6 md:max-w-3/4">
-            {eventsFromFile.sort((a, b) => {
-                const startDiff = a.startDate.getDate() - b.startDate.getDate();
+            {events.sort((a, b) => {
 
-                if (startDiff !== 0) return startDiff;
+                if (a.startDate.getTime() === b.startDate.getTime()) 
+                    return a.endDate > b.endDate ? 1 : -1;
 
-                return a.endDate.getDate() - b.endDate.getDate();
+                return a.startDate > b.startDate ? 1 : -1;
             }).map((event, index) => (
                 <EventComponent key={index} eventProps={event} />
             ))}

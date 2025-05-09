@@ -7,22 +7,22 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
 
     return (
         <div className="shadow-box flex flex-col">
-            <div className='mb-4 mr-4 pl-10 text-2xl'>
+            <div className='text-2xl'>
                 <h2>{eventProps.organizer}: {eventProps.name}</h2>
                 <a href={eventProps.organizerURI} className='underline text-sm'>{eventProps.organizerURI}</a>
             </div>
             <div className="flex flex-row flex-wrap">
                 <div className='md:w-1/4 w-full p-4'>
                     {eventProps.imageURI && (
-                        <div className='justify-items-center m-4'>
-                            <Image src={eventProps.imageURI} alt={eventProps.imageAlt} width={100} height={100} />
+                        <div className='justify-items-center mb-2'>
+                            <Image src={eventProps.imageURI} alt={eventProps.imageAlt} width={100} height={100} className='rounded-sm'/>
                         </div>
                     )}
                     <div className="">{eventProps.startDate.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })} -</div>
                     <div className='text-right'>{eventProps.endDate.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</div>
                     <div className='text-center'>{eventProps.location}</div>
                 </div>
-                <div className='mb-4 mr-4 md:w-3/5 w-full p-4'>
+                <div className=' md:w-3/5 w-full'>
                     <p>{eventProps.description}</p>
                     {eventProps.eventURI && (
                         <p><strong>Link:</strong> <a href={eventProps.eventURI} className='underline'>{eventProps.eventURI}</a></p>
