@@ -91,9 +91,8 @@ export default function RootLayout({
                 <Image src={bsLogo} alt="bluesky" width={30} height={30} className="rounded-full" />
               </Link>
             </div>
-          </div>
-          <div className="flex items-center gap-5">
-            <div><Link href="/about">About</Link></div>
+          {/* </div>
+          <div className="flex items-center gap-5"> */}
             <div><Link href="/faq">FAQ</Link></div>
             <div><Link href="mailto:contact@findlaypride.com" className="underline">contact@findlaypride.com</Link></div>
           </div>
