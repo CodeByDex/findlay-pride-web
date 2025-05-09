@@ -21,7 +21,7 @@ const events: Event[] = [
         location: "Wine Merchant",
         organizer: "Wine Merchant",
         organizerURI: "facebook.com/findlaywinemerchant",
-        imageURI: "/event/WMLogo.jpg",
+        imageURI: "/event/WMLogo.png",
         imageAlt: "Wine Merchant Logo",
     },
     {
@@ -54,7 +54,7 @@ const events: Event[] = [
         location: "Findlay Brewing Company",
         organizer: "Jonny Burritos",
         organizerURI: "facebook.com/jonnyburritos",
-        imageURI: "/event/JBEvent.jpg",
+        imageURI: "/event/JBEvent.png",
         imageAlt: "Open half burrito with rainbow rice",
     },
 ];
