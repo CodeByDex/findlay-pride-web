@@ -1,5 +1,7 @@
+@import "tailwindcss";
+
 .response { 
-    text-indent: 2em; 
+    @apply pl-4
 }
 
 .question {

@@ -3,8 +3,8 @@ import Link from 'next/link';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Findlay Pride - FAQ", 
-  description: "Frequent questions about Findlay Pride.",
+    title: "Findlay Pride - FAQ",
+    description: "Frequent questions about Findlay Pride.",
 }
 
 export default function Home() {
@@ -18,11 +18,13 @@ export default function Home() {
                 </div> */}
                 <div>
                     <div className='question'>I thought LGBTQ+ Spectrum of Findlay (Spectrum) and/or Kaleidoscope Youth Center (KYC) planned Pride in Findlay? </div>
-                    <div className='response'>Spectrum (and now/soon to be KYC) has historically led the effort for Pride events in Findlay, and they are still planning some events with a small selection of Findlay businesses in June. We welcome you to work with them, especially if you are interested in doing any kind of charitable fundraising.  We plan to highlight the work Spectrum is doing, and we additionally want to help show appreciation for every business that is creating an engaging and welcoming environment for Findlay citizens in June.</div>
+                    <div className='response'>
+                        Spectrum (and now/soon to be KYC) has historically led the effort for Pride events in Findlay, and they are still planning a “<Link href="https://www.facebook.com/share/p/197TNoZQnz/" target='_blank' className='underline'>Mini Pride</Link>” in June. We welcome you to work with them, especially if you are interested in doing any kind of charitable fundraising.  We want to help show appreciation for every business and organization (including Spectrum!) that is creating an engaging and welcoming environment for Findlay citizens in June. 
+                    </div>
                 </div>
                 <div>
                     <div className='question'>What’s the catch?</div>
-                    <div className='response'>No catch! We want to support businesses that support the community - simple as that! We are not fundraising or requesting funds to accomplish our goals; this is a 100% volunteer and grassroots effort.</div>
+                    <div className='response'>No catch! We want to support businesses and organizations that support the community - simple as that! We are not fundraising or requesting funds to accomplish our goals; this is a 100% volunteer and grassroots effort.</div>
                 </div>
                 <div>
                     <div className='question'>Why are you doing this?</div>
@@ -34,18 +36,21 @@ export default function Home() {
                 </div>
                 <div>
                     <div className='question'>What information should I include in my Pride Month offering?</div>
-                    <div className='response'><p>Preview other business offerings at <Link href="/events" className='underline'>FindlayPride.com/events</Link>. Please send details to <Link href="mailto:event@findlaypride.com" className='underline'>event@findlaypride.com</Link>
-                            <ul className='list-disc pl-15'>
-                                <li>Link to your socials</li>
-                                <li>Description of your Event or Special(s)</li>
-                                <li>Start Date/Time & End Date/Time</li>
-                                <li>Location</li>
-                                <li>Link to event (if available)</li>
-                                <li>Graphic(s)</li>
-                                <li>Information on if/how you plan promote so we can coordinate with you</li>
-                            </ul>
-                        </p>
+                    <div className='response'><p>Preview other business and orginizational offerings at <Link href="/events" className='underline'>FindlayPride.com/events</Link>. Please send details to <Link href="mailto:event@findlaypride.com" className='underline'>event@findlaypride.com</Link></p>
+                        <ul className='list-disc pl-4'>
+                            <li>Link to your socials</li>
+                            <li>Description of your Event or Special(s)</li>
+                            <li>Start Date/Time & End Date/Time</li>
+                            <li>Location</li>
+                            <li>Link to event (if available)</li>
+                            <li>Graphic(s)</li>
+                            <li>Information on if/how you plan promote so we can coordinate with you</li>
+                        </ul>
                     </div>
+                </div>
+                <div>
+                    <div className='question'>What about Pride in the Park?</div>
+                    <div className='response'>We encourage you to check out the latest information regarding Pride in the Park from <Link href="https://www.facebook.com/lgbtqSpectrumofFindlay" target='_blank' className='underline'>Spectrum</Link> on their socials. The latest information we have from Spectrum is this event is postponed until 9/6. </div>
                 </div>
             </div>
         </main>
