@@ -4,6 +4,9 @@ export const metadata: Metadata = {
   description: "Who we are and what we do.",
 }
 
+import Image from "next/image";
+import FindlayPrideMembers from "../../public/FindlayPrideMembers.jpg"
+
 export default function Home() {
     return (
         <main className="justify-items-center sm:max-w-5/6 md:max-w-3/4 gap-16  font-[family-name:var(--font-geist-sans)]">
@@ -29,6 +32,7 @@ export default function Home() {
                     <p>Ryan Spath - Co-coordinator</p>
                     <p>David Wishart</p>
                 </div>
+                <Image src={FindlayPrideMembers} alt="Findlay Pride Coalition Members" className="rounded-lg" width={2500} height={550} />
             </div>
         </main>
     )
