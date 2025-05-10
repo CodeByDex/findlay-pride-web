@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <main className="justify-items-center gap-16 font-[family-name:var(--font-geist-sans)] sm:max-w-5/6 md:max-w-3/4">
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <div>We are currently in the planning stages and reaching out to local businesses so you may see one of volunteers soon!  If you have an idea or are planning a Pride Month event we would love to hear about it @ <Link href="mailto:event@findlaypride.com" className="underline" >event@findlaypride.com</Link></div>
+        <div>We are currently in the planning stages and reaching out to local businesses and organizations so you may see one of volunteers soon!  If you have an idea or are planning a Pride Month event we would love to hear about it @ <Link href="mailto:event@findlaypride.com" className="underline" >event@findlaypride.com</Link></div>
         <div className="flex flex-col gap-[32px]">
           {getEventsToDisplay().sort((a, b) => {
             
