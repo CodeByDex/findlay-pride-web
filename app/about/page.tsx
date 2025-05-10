@@ -14,6 +14,21 @@ export default function Home() {
                 <div>A Findlay where every person feels welcomed, valued, and empowered to contribute to a stronger, more connected community.</div>
                 <h2 className="text-lg text-center min-w-full">Mission</h2>
                 <div>In 2025, our mission is to take Pride in Findlay back to the basics of bringing the community together to build relationships and create visibility to the welcoming spirit that exists in Findlay, Ohio for everyone that calls Findlay home.</div>
+                <h2 className="text-lg text-center min-w-full">Coalition</h2>
+                <div className="grid md:grid-cols-2 min-w-full">
+                    <p>Chris Caldwell</p>
+                    <p>Peggy Dillon</p>
+                    <p>Matt Frost</p>
+                    <p>Kane Holman</p>
+                    <p>Maria Iafelice - Co-coordinator</p>
+                    <p>Amber Kear</p>
+                    <p>Tina McQueen</p>
+                    <p>Emily Miller</p>
+                    <p>Brandon Mooney</p>
+                    <p>Jon Perkowski - Co-coordinator</p>
+                    <p>Ryan Spath - Co-coordinator</p>
+                    <p>David Wishart</p>
+                </div>
             </div>
         </main>
     )
