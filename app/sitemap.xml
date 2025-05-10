@@ -1,14 +1,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://findlaypride.com</loc>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
   </url>
   <url>
     <loc>https://findlaypride.com/about</loc>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://findlaypride.com/volunteer</loc>
     <changefreq>weekly</changefreq>
   </url>
   <url>
@@ -17,6 +13,10 @@
   </url>
   <url>
     <loc>https://findlaypride.com/faq</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://findlaypride.com/volunteer</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
