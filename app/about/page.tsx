@@ -10,6 +10,9 @@ import bsLogo from "@public/icons8-bluesky.svg";
 import fcLogo from "@public/partnerLogo/firstChristian.png"
 import fppLogo from "@public/partnerLogo/fppLogo.svg"
 import mdLogo from "@public/partnerLogo/mdLogo.png"
+import caLogo from "@public/partnerLogo/CALogo.png"
+import wmLogo from "@public/partnerLogo/WMLogo.png"
+import jbLogo from "@public/partnerLogo/jbLogo.png"
 
 import Link from "next/link";
 
@@ -23,7 +26,7 @@ export default function Home() {
                 <h2 className="text-lg text-center min-w-full">Partners & Participating Organizations</h2>
                 <div className="grid md:grid-cols-2 min-w-full gap-5">
                     <div>
-                        <div><Image src={fppLogo} width={200} height={200} alt="Findlay Pride Potluck Logo" /></div>
+                        <div><Image src={fppLogo} width={200} height={200} className='rounded-sm' alt="Findlay Pride Potluck Logo" /></div>
                         <div>Findlay Pride Potluck</div>
                         <div className="flex items-center gap-5">
                             <div className="">
@@ -50,7 +53,31 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <div><Image src={fcLogo} width={200} height={200} alt="First Christian Church Logo" /></div>
+                        <div><Image src={caLogo} width={200} height={200} className='rounded-sm' alt="Coffee Amici Logo" /></div>
+                        <div>Coffee Amici</div>
+                        <div><Link href="https://coffeeamici.com/" target="_blank" className="underline">https://coffeeamici.com/</Link></div>
+                        <div className="flex items-center gap-5">
+                            <div className="">
+                                <Link href="https://www.facebook.com/coffeeamici" target="_blank">
+                                    <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div><Image src={wmLogo} width={200} height={200} className='rounded-sm' alt="Wine Merchant Logo" /></div>
+                        <div>Findlay Wine Merchant</div>
+                        <div><Link href="https://www.findlaywinemerchant.com/" target="_blank" className="underline">https://www.findlaywinemerchant.com/</Link></div>
+                        <div className="flex items-center gap-5">
+                            <div className="">
+                                <Link href="https://www.facebook.com/findlaywinemerchant" target="_blank">
+                                    <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div><Image src={fcLogo} width={200} height={200} className='rounded-sm' alt="First Christian Church Logo" /></div>
                         <div>First Christian Church</div>
                         <div><Link href="https://www.fccfindlay.org" target="_blank" className="underline">www.fccfindlay.org</Link></div>
                         <div className="flex items-center gap-5">
@@ -62,7 +89,19 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <div><Image src={mdLogo} width={200} height={200} alt="Findlay Pride Potluck Logo" /></div>
+                        <div><Image src={jbLogo} width={200} height={200} className='rounded-sm' alt="Jonny Burritos Logo" /></div>
+                        <div>Jonny Burritos</div>
+                        <div><Link href="https://streetfoodfinder.com/jonnyburritos" target="_blank" className="underline">https://streetfoodfinder.com/jonnyburritos</Link></div>
+                        <div className="flex items-center gap-5">
+                            <div className="">
+                                <Link href="https://www.facebook.com/jonnyburritos" target="_blank">
+                                    <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div><Image src={mdLogo} width={200} height={200} className='rounded-sm' alt="Findlay Pride Potluck Logo" /></div>
                         <div>Mooney Design</div>
                         <div><Link href="https://mooneybdesign.com/" target="_blank" className='underline'>https://mooneybdesign.com/</Link></div>
                     </div>
