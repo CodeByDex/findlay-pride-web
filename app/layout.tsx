@@ -4,8 +4,6 @@ import "./globals.css";
 import Image from "next/image";
 import Link from "next/link";
 import siteLogo from "../public/PrideF.png";
-import fbLogo from "../public/icons8-facebook.svg";
-import bsLogo from "../public/icons8-bluesky.svg"
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -81,16 +79,6 @@ export default function RootLayout({
         {children}
         <footer className="p-5">
           <div className="flex items-center gap-5">
-            <div className="">
-              <Link href="https://facebook.com/FindlayPride" target="_blank">
-                <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
-              </Link>
-            </div>
-            <div className="">
-              <Link href="https://bsky.app/profile/findlaypride.com" target="_blank">
-                <Image src={bsLogo} alt="bluesky" width={30} height={30} className="rounded-full" />
-              </Link>
-            </div>
           {/* </div>
           <div className="flex items-center gap-5"> */}
             <div><Link href="/faq">FAQ</Link></div>

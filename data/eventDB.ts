@@ -61,7 +61,7 @@ const events: Event[] = [
         location: "Wine Merchant",
         organizer: "Wine Merchant",
         organizerURI: "facebook.com/findlaywinemerchant",
-        imageURI: "/event/WMLogo.png",
+        imageURI: "/partnerLogo/WMLogo.png",
         imageAlt: "Wine Merchant Logo",
     },
     {
@@ -72,7 +72,7 @@ const events: Event[] = [
         location: "Coffee Amici",
         organizer: "Coffee Amici",
         organizerURI: "facebook.com/coffeeamici",
-        imageURI: "/event/CALogo.png",
+        imageURI: "/partnerLogo/CALogo.png",
         imageAlt: "Coffee Amici Logo",
     },
     {
@@ -81,10 +81,10 @@ const events: Event[] = [
         startDate: new Date(2025, 5, 7,0, 0),
         endDate: new Date(2025, 5, 7, 23, 59),
         location: "Dorney Plaza in Downtown Findlay",
-        organizer: "Findlay Pride",
+        organizer: "Findlay Community",
         organizerURI: "facebook.com/findlaypride",
-        imageURI: "/PrideF.png",
-        imageAlt: "Pride Themed Letter F",
+        imageURI: "/partnerLogo/fppLogo.svg",
+        imageAlt: "Findlay Pride Potluck Logo",
     },
     {
         name: "Brewito Monday",
