@@ -83,6 +83,7 @@ const events: Event[] = [
         location: "Dorney Plaza in Downtown Findlay",
         organizer: "Findlay Community",
         organizerURI: "facebook.com/findlaypride",
+        eventURI: "facebook.com/events/1260412825814831",
         imageURI: "/partnerLogo/fppLogo.svg",
         imageAlt: "Findlay Pride Potluck Logo",
         tags: ["Volunteer Opt", "Sober", "Kid Friendly"],
@@ -97,6 +98,18 @@ const events: Event[] = [
         organizerURI: "facebook.com/jonnyburritos",
         imageURI: "/event/JBEvent.png",
         imageAlt: "Open half burrito with rainbow rice",
+    },
+    {
+        name: "Paint A Brick",
+        description: `<p>Celebrate & learn about LGBTQIA+ History; create modern day inspiration while connecting with the history of the Stonewall Riots.</p>
+        <p>This event is 18+ and $10/person. Supplies provided</p>`,
+        startDate: new Date(2025, 5, 28, 10, 0),
+        endDate: new Date(2025, 5, 28, 12, 0),
+        location: "The Findlay Art League",
+        organizer: "Hysteria Co. by ambz",
+        organizerURI: "hysteria.company",
+        imageURI: "/event/paintEvent.png",
+        imageAlt: "brick with rainbow trail background",
     },
 ];
 
