@@ -19,20 +19,20 @@ export default function Home() {
                 <div>
                     <div className='question'>I thought LGBTQ+ Spectrum of Findlay (Spectrum) and/or Kaleidoscope Youth Center (KYC) planned Pride in Findlay? </div>
                     <div className='response'>
-                        Spectrum (and now/soon to be KYC) has historically led the effort for Pride events in Findlay, and they are still planning a “<Link href="https://www.facebook.com/share/p/197TNoZQnz/" target='_blank' className='underline'>Mini Pride</Link>” in June. We welcome you to work with them, especially if you are interested in doing any kind of charitable fundraising.  We want to help show appreciation for every business and organization (including Spectrum!) that is creating an engaging and welcoming environment for Findlay citizens in June. 
+                        Spectrum (and now/soon to be KYC) has historically led the effort for Pride events in Findlay, and they are still planning a “<Link href="https://www.facebook.com/share/p/197TNoZQnz/" target='_blank' className='underline'>Mini Pride</Link>” in June. 
+                        If you are interested in helping the community through charitable means please consider donating to KYC at: <Link href="https://kyc.app.neoncrm.com/forms/online-giving" target="_blank" className='underline'>https://kyc.app.neoncrm.com/forms/online-giving</Link>.
+                        This website's goal is to show appreciation for every business and organization that is creating an engaging and welcoming environment for Findlay citizens in June. 
                     </div>
                 </div>
                 <div>
                     <div className='question'>What’s the catch?</div>
-                    <div className='response'>No catch! We want to support businesses and organizations that support the community - simple as that! We are not fundraising or requesting funds to accomplish our goals; this is a 100% volunteer and grassroots effort.</div>
-                </div>
-                <div>
-                    <div className='question'>Why are you doing this?</div>
-                    <div className='response'>In 2025, our mission is to take Pride in Findlay back to the basics of bringing the community together to build relationships and create visibility to the welcoming spirit that exists in Findlay, Ohio for everyone that calls Findlay home.</div>
+                    <div className='response'>No catch! We want to support businesses and organizations that support the community - simple as that! 
+                        There are no financial obligations to be participate we just want to show appreciation for the support you are showing the Findlay community.  
+                        This website is 100% volunteer managed. </div>
                 </div>
                 <div>
                     <div className='question'>Who are you?</div>
-                    <div className='response'>We are a group of Findlay citizens committed to helping Findlay grow as a place of belonging and opportunity. As a grassroots effort not formally affiliated with Spectrum or KYC, we welcome collaboration with any and all groups inspired by fostering community connections. At the time of writing, our leadership includes: Ryan Spath, Maria Iafelice, Jon Perkowski, and nearly a dozen additional volunteers.  You can learn more about us at <Link href="/about" className='underline'>FindlayPride.com/about</Link>.</div>
+                    <div className='response'>We are a collaborative effort between a group of Findlay citizens and Spectrum.</div>
                 </div>
                 <div>
                     <div className='question'>What information should I include in my Pride Month offering?</div>

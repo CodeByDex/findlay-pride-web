@@ -1,10 +1,23 @@
-import Image from "next/image";
+
 import Link from "next/link";
+import events from "@/data/eventDB";
+import { EventComponent } from "@/component/event"
+import { Event } from "@/data/type/Event";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
-  title: "Findlay Pride - Volunteer", 
+  title: "Findlay Pride - Volunteer",
   description: "Volunteer opportunities for Findlay Pride.",
+}
+
+function getEventsToDisplay(): Event[] {
+  const currentDate = new Date();
+
+  var displayEvents: Event[] = events.filter((event) => {
+    return (event.startDate >= currentDate && event.tags?.includes("Volunteer Opt"))
+  });
+  console.log(displayEvents)
+  return displayEvents;
 }
 
 export default function Home() {
@@ -12,6 +25,21 @@ export default function Home() {
     <main className="justify-items-center font-[family-name:var(--font-geist-sans)] sm:max-w-5/6 md:max-w-3/4">
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div>If you are looking to volunteer or are looking for volunteers for Pride Month related activities we'd love to help make the connection.  Please contact us @ <Link href="mailto:volunteer@findlaypride.com" className="underline" >volunteer@findlaypride.com</Link></div>
+      </div>
+      <div>
+        <div>Here are upcoming events that have volunteer opportunities.</div>
+        <div className="flex flex-col gap-[32px]">
+          {getEventsToDisplay().sort((a, b) => {
+
+            if (a.startDate.getTime() === b.startDate.getTime())
+              return a.endDate > b.endDate ? 1 : -1;
+
+            return a.startDate > b.startDate ? 1 : -1;
+
+          }).map((event, index) => (
+            <EventComponent key={index} eventProps={event} />
+          ))}
+        </div>
       </div>
     </main>
   );

@@ -3,6 +3,11 @@ import { Event } from '@data/type/Event'
 import Image from 'next/image';
 import Link from 'next/link';
 
+import dangerouslySetInnerHTML from 'react'
+
+function renderDescription({ desc }: { desc: string }) {
+    return <div dangerouslySetInnerHTML={{ __html: desc }} />;
+}
 
 export function EventComponent({ eventProps }: { eventProps: Event }) {
 
@@ -24,7 +29,7 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
                     <div className='text-center'>{eventProps.location}</div>
                 </div>
                 <div className=' md:w-3/5 w-full'>
-                    <p>{eventProps.description}</p>
+                    {renderDescription({desc: eventProps.description})}
                     {eventProps.eventURI && (
                         <p><strong>Link:</strong> <Link href={"https://"+eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p>
                     )}
