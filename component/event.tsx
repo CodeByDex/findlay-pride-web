@@ -21,7 +21,7 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
                 <div className='md:w-1/4 w-full p-4'>
                     {eventProps.imageURI && (
                         <div className='justify-items-center mb-2'>
-                            <Image src={eventProps.imageURI} alt={eventProps.imageAlt} width={100} height={100} className='rounded-sm'/>
+                            <Image src={eventProps.imageURI} alt={eventProps.imageAlt} width={200} height={200} className='rounded-sm'/>
                         </div>
                     )}
                     <div className="">{eventProps.startDate.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })} -</div>
