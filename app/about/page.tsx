@@ -13,6 +13,8 @@ import mdLogo from "@public/partnerLogo/mdLogo.png"
 import caLogo from "@public/partnerLogo/CALogo.png"
 import wmLogo from "@public/partnerLogo/WMLogo.png"
 import jbLogo from "@public/partnerLogo/jbLogo.png"
+import sLogo from "@public/partnerLogo/sLogo.png"
+import kycLogo from "@public/partnerLogo/kycLogo.png"
 
 import Link from "next/link";
 
@@ -21,10 +23,10 @@ export default function Home() {
         <main className="justify-items-center sm:max-w-5/6 md:max-w-3/4 gap-16  font-[family-name:var(--font-geist-sans)]">
             <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <h2 className="text-lg text-center min-w-full">Who We Are</h2>
-                <div>This site is a collaborative effort between Findlay Citizens and Spectrum LGBTQ+ of Findlay.
+                <div>This site is a collaborative effort between Findlay Citizens and LGBTQ+ Spectrum of Findlay.
                     We welcome collaboration with any groups inspired by fostering community connections. </div>
                 <h2 className="text-lg text-center min-w-full">Partners & Participating Organizations</h2>
-                <div className="grid md:grid-cols-2 min-w-full gap-5">
+                <div className="grid md:grid-cols-3 min-w-full gap-5">
                     <div>
                         <div><Image src={fppLogo} width={200} height={200} className='rounded-sm' alt="Findlay Pride Potluck Logo" /></div>
                         <div>Findlay Pride Potluck</div>
@@ -42,7 +44,20 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <div>Spectrum LGBTQ+ of Findlay</div>
+                        <div><Image src={kycLogo} width={200} height={200} className='rounded-sm bg-white' alt="Kaleidoscope Youth Center Logo" /></div>
+                        <div>Kaleidoscope Youth Center</div>
+                        <div><Link href="https://www.kycohio.org/" target="_blank" className="underline">https://www.kycohio.org/</Link></div>
+                        <div className="flex items-center gap-5">
+                            <div className="">
+                                <Link href="https://www.facebook.com/KYCOhio/" target="_blank">
+                                    <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div><Image src={sLogo} width={200} height={200} className='rounded-sm bg-white' alt="Lgbtq+ Spectrum of Findlay Logo" /></div>
+                        <div>LGBTQ+ Spectrum of Findlay</div>
                         <div><Link href="https://spectrumoffindlaylgbt.org/" target="_blank" className="underline">https://spectrumoffindlaylgbt.org/</Link></div>
                         <div className="flex items-center gap-5">
                             <div className="">
