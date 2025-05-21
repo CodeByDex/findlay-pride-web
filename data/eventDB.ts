@@ -10,8 +10,8 @@ const events: Event[] = [
         organizer: "LGBTQ+ Spectrum of Findlay",
         organizerURI: "facebook.com/lgbtqSpectrumofFindlay",
         eventURI: "facebook.com/share/p/1AaJjy5vWJ/",
-        imageURI: "/PrideF.png",
-        imageAlt: "Pride Themed Letter F",
+        imageURI: "/partnerLogo/sLogo.png",
+        imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
     },
     {
@@ -23,8 +23,8 @@ const events: Event[] = [
         organizer: "LGBTQ+ Spectrum of Findlay",
         organizerURI: "facebook.com/lgbtqSpectrumofFindlay",
         eventURI: "facebook.com/share/p/1AaJjy5vWJ/",
-        imageURI: "/PrideF.png",
-        imageAlt: "Pride Themed Letter F",
+        imageURI: "/partnerLogo/sLogo.png",
+        imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
     },
     {
@@ -36,8 +36,8 @@ const events: Event[] = [
         organizer: "LGBTQ+ Spectrum of Findlay",
         organizerURI: "facebook.com/lgbtqSpectrumofFindlay",
         eventURI: "facebook.com/share/p/1AaJjy5vWJ/",
-        imageURI: "/PrideF.png",
-        imageAlt: "Pride Themed Letter F",
+        imageURI: "/partnerLogo/sLogo.png",
+        imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
     },
     {
@@ -49,8 +49,8 @@ const events: Event[] = [
         organizer: "LGBTQ+ Spectrum of Findlay",
         organizerURI: "facebook.com/lgbtqSpectrumofFindlay",
         eventURI: "facebook.com/share/p/1AaJjy5vWJ/",
-        imageURI: "/PrideF.png",
-        imageAlt: "Pride Themed Letter F",
+        imageURI: "/partnerLogo/sLogo.png",
+        imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
     },
     {
@@ -101,8 +101,27 @@ const events: Event[] = [
     },
     {
         name: "Paint A Brick",
-        description: `<p>Celebrate & learn about LGBTQIA+ History; create modern day inspiration while connecting with the history of the Stonewall Riots.</p>
-        <p>This event is 18+ and $10/person. Supplies provided</p>`,
+        description: `
+<p>Put a BRICK in your calendar!</p>
+<p>SATURDAY. JUNE. 28. 2025</p>
+<p>Paint-A-Brick 🧱🌈</p>
+<p>with ambz & friends</p>
+<p>10A-NOON</p>
+<p>$10/person </p>
+<p>18+ </p>
+<p>Workshop located in the historic Jones Building at the Findlay Art League. </p>
+<p>Celebrate & learn about LGBTQIA+ History; create modern day inspiration while connecting with the history of the Stonewall Riots. While coming together in community.</p>
+<p>Proceeds will go to the @findlayartleague419 & @kycohio </p>
+<p>What will I do with this painted brick? </p>
+<ul class="list-disc pl-4">
+<li>put in your garden </li>
+<li>add to your shrine</li>
+<li>gift it to a friend</li>
+<li>display it in a glass case at a museum </li>
+<li>donate it for an art auction to raise funds for a LGBTQIA+ org </li>
+<li>take a selfie with it for Pride & tag @thestonewallinn </li>
+<li>raise awareness & reach your people </li>
+<li>paint more bricks for Pride month </li></ul>`,
         startDate: new Date(2025, 5, 28, 10, 0),
         endDate: new Date(2025, 5, 28, 12, 0),
         location: "The Findlay Art League",
@@ -110,6 +129,7 @@ const events: Event[] = [
         organizerURI: "hysteria.company",
         imageURI: "/event/paintEvent.png",
         imageAlt: "brick with rainbow trail background",
+        eventURI: "findlayartleague.org/store/classes/p/paintabrick"
     },
 ];
 
