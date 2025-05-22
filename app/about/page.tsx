@@ -44,7 +44,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <div><Image src={kycLogo} width={200} height={200} className='rounded-sm bg-white' alt="Kaleidoscope Youth Center Logo" /></div>
+                        <div><Image src={kycLogo} width={200} height={200} className='rounded-sm' alt="Kaleidoscope Youth Center Logo" /></div>
                         <div>Kaleidoscope Youth Center</div>
                         <div><Link href="https://www.kycohio.org/" target="_blank" className="underline">https://www.kycohio.org/</Link></div>
                         <div className="flex items-center gap-5">
@@ -56,7 +56,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div>
-                        <div><Image src={sLogo} width={200} height={200} className='rounded-sm bg-white' alt="Lgbtq+ Spectrum of Findlay Logo" /></div>
+                        <div><Image src={sLogo} width={200} height={200} className='rounded-sm' alt="Lgbtq+ Spectrum of Findlay Logo" /></div>
                         <div>LGBTQ+ Spectrum of Findlay</div>
                         <div><Link href="https://spectrumoffindlaylgbt.org/" target="_blank" className="underline">https://spectrumoffindlaylgbt.org/</Link></div>
                         <div className="flex items-center gap-5">
