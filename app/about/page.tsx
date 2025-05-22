@@ -15,6 +15,7 @@ import wmLogo from "@public/partnerLogo/WMLogo.png"
 import jbLogo from "@public/partnerLogo/jbLogo.png"
 import sLogo from "@public/partnerLogo/sLogo.png"
 import kycLogo from "@public/partnerLogo/kycLogo.png"
+import tfoLogo from "@public/partnerLogo/tfoLogo.png"
 
 import Link from "next/link";
 
@@ -74,6 +75,18 @@ export default function Home() {
                         <div className="flex items-center gap-5">
                             <div className="">
                                 <Link href="https://www.facebook.com/coffeeamici" target="_blank">
+                                    <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div><Image src={tfoLogo} width={200} height={200} className='rounded-sm' alt="The Findlay Office Logo" /></div>
+                        <div>The Findlay Office</div>
+                        <div><Link href="https://www.thefindlayoffice.com/" target="_blank" className="underline">https://www.thefindlayoffice.com/</Link></div>
+                        <div className="flex items-center gap-5">
+                            <div className="">
+                                <Link href="https://www.facebook.com/thefindlayoffice" target="_blank">
                                     <Image src={fbLogo} alt="facebook" width={30} height={30} className="rounded-full" />
                                 </Link>
                             </div>
