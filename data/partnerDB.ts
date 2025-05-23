@@ -137,6 +137,16 @@ const partners: Partner[] = [
         organizerURI: "https://www.falsechordbrewing.com/",
         socials: {
             facebook: "https://www.facebook.com/falsechordbrewing",
+        },
+        highlight: false
+    },
+    {
+        name: "Reading Grounds",
+        imageURI: "/partnerLogo/rgLogo.png",
+        imageAlt: "Reading Grounds Logo",
+        organizerURI: "https://readinggroundsohio.com/",
+        socials: {
+            facebook: "https://www.facebook.com/profile.php?id=61559814922888",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined

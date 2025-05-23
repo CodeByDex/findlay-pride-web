@@ -203,6 +203,30 @@ What will I do with this painted brick?<ul class="list-disc pl-4"><li>put in you
         imageAlt: "brick with rainbow trail background",
         eventURI: "findlayartleague.org/store/classes/p/paintabrick"
     },
+    {
+        name: "Rainbow Soda Flights",
+        description: "Stop by Reading Grounds all month long to Taste the Rainbow with one of their colorful and tasty soda flights!",
+        imageURI: "/event/rgRainbowSoda.jpeg",
+        imageAlt: "four mini colored sodas red, yellow blue and purple",
+        startDate: new Date(2025, 5, 1, 0, 0),
+        endDate: new Date(2025, 5, 30, 23, 59),
+        location: "Reading Grounds",
+        organizer: "Reading Grounds",
+        organizerURI: "readinggroundsohio.com/"
+    },
+    {
+        name: "Rainbow Flower Bouquet",
+        description: `Join Reading Grounds and Restoration Flower Farms for a make your own bouquet workshop, rainbow colored of course!
+        
+        Details on signing up coming soon!`,
+        imageURI: "/partnerLogo/rgLogo.png",
+        imageAlt: "Reading Grounds Logo",
+        startDate: new Date(2025, 5, 14, 0, 0),
+        endDate: new Date(2025, 5, 14, 23, 59),
+        location: "Reading Grounds",
+        organizer: "Reading Grounds",
+        organizerURI: "readinggroundsohio.com/"
+    },
 ];
 
 export default events;
