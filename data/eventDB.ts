@@ -79,8 +79,8 @@ const events: Event[] = [
     {
         name: "Community Window Collage",
         description: "Coffee Amici invites the LGBTQIA community and its allies to cover our front windows in their handprints as a display of support and to encourage inclusivity in our community!",
-        startDate: new Date(2025, 5, 1,0, 0),
-        endDate: new Date(2025, 5, 30, 23, 59),
+        startDate: new Date(2025, 5, 7, 12, 0),
+        endDate: new Date(2025, 5, 7, 15, 0),
         location: "Coffee Amici",
         organizer: "Coffee Amici",
         organizerURI: "facebook.com/coffeeamici",
