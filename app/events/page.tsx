@@ -1,6 +1,7 @@
 import { EventComponent } from "@/component/event"
 import events from "@/data/eventDB";
 import Link from "next/link";
+import { EventDefaultSort } from "@/data/type/Event";
 
 import { Metadata } from "next";
 export const metadata: Metadata = {
@@ -15,12 +16,7 @@ export default function EventPage() {
                 If you'd like to add your event please contact us @ <Link href="mailto:event@findlaypride.com" className="underline" >event@findlaypride.com</Link>
             </div>
             <div className="flex flex-col gap-[32px]">
-                {events.sort((a, b) => {
-                    if (a.startDate.getTime() === b.startDate.getTime())
-                        return a.endDate > b.endDate ? 1 : -1;
-
-                    return a.startDate > b.startDate ? 1 : -1;
-                }).map((event, index) => (
+                {EventDefaultSort(events).map((event, index) => (
                     <EventComponent key={index} eventProps={event} />
                 ))}
             </div>

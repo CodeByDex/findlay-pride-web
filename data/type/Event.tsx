@@ -11,3 +11,17 @@ export type Event = {
     eventURI?: string;
     tags?: string[];
 };
+
+export function EventDefaultSort(thingsToSort: Event[]): Event[] {
+
+    thingsToSort = thingsToSort.sort((a, b) => {
+            
+            if (a.startDate.getTime() === b.startDate.getTime()) 
+              return a.endDate > b.endDate ? 1 : -1;
+
+          return a.startDate > b.startDate ? 1 : -1;
+
+          })
+
+    return thingsToSort;
+}

@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import events from "@/data/eventDB";
 import { EventComponent } from "@/component/event"
-import { Event } from "@/data/type/Event";
+import { Event, EventDefaultSort } from "@/data/type/Event";
 
 function getEventsToDisplay(): Event[] {
   const currentDate = new Date(); // Set to the current date for testing
@@ -32,14 +32,7 @@ export default function Home() {
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <div>We are currently in the planning stages and reaching out to local businesses and organizations so you may see one of volunteers soon!  If you have an idea or are planning a Pride Month event we would love to hear about it @ <Link href="mailto:event@findlaypride.com" className="underline" >event@findlaypride.com</Link></div>
         <div className="flex flex-col gap-[32px]">
-          {getEventsToDisplay().sort((a, b) => {
-            
-            if (a.startDate.getTime() === b.startDate.getTime()) 
-              return a.endDate > b.endDate ? 1 : -1;
-
-          return a.startDate > b.startDate ? 1 : -1;
-
-          }).map((event, index) => (
+          {EventDefaultSort(getEventsToDisplay()).map((event, index) => (
             <EventComponent key={index} eventProps={event} />
           ))}
         </div>

@@ -1,4 +1,4 @@
-import { Event } from "@/data/type/Event"
+import { Event, EventDefaultSort } from "@/data/type/Event"
 import { EventComponent } from "@/component/event"
 import eventsFromFile from "@/data/eventDB";
 
@@ -42,13 +42,7 @@ const events: Event[] = [
 export default function EventPage() {
     return (
         <main className="sm:max-w-5/6 md:max-w-3/4">
-            {events.sort((a, b) => {
-
-                if (a.startDate.getTime() === b.startDate.getTime()) 
-                    return a.endDate > b.endDate ? 1 : -1;
-
-                return a.startDate > b.startDate ? 1 : -1;
-            }).map((event, index) => (
+            {EventDefaultSort(events).map((event, index) => (
                 <EventComponent key={index} eventProps={event} />
             ))}
         </main>
