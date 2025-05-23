@@ -26,12 +26,12 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
                     )}
                     <div className="">{eventProps.startDate.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })} -</div>
                     <div className='text-right'>{eventProps.endDate.toLocaleString(undefined, { dateStyle: "medium", timeStyle: "short" })}</div>
-                    <div className='text-center'>{eventProps.location}</div>
+                    <div className='text-center'><address>{eventProps.location}</address></div>
                 </div>
                 <div className=' md:w-3/5 w-full'>
                     {renderDescription({desc: eventProps.description})}
                     {eventProps.eventURI && (
-                        <div><br/><p><strong>Link:</strong> <Link href={eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p></div>
+                        <div><br/><p><strong>Event Link:</strong> <Link href={eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p></div>
                     )}
                     {eventProps.tags && eventProps.tags.length > 0 && (
                         <div><br/><p><strong>Tags:</strong> {eventProps.tags.join(', ')}</p></div>
