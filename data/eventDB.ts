@@ -144,6 +144,21 @@ const events: Event[] = [
         imageAlt: "brick with rainbow trail background",
         eventURI: "findlayartleague.org/store/classes/p/paintabrick"
     },
+    {
+        name: "Pride Ride",
+        description: `Meet up at the shop around 6:15 pm, then we hit the streets for a goofy, joy-filled cruise around downtown! Expect an easy hour-long ride exploring parks, neighborhoods, and all the new bike lanes popping up around town.
+
+        Got a cruiser, BMX, old mountain bike, or something weird with wheels? Perfect. This isn’t a cycling ride — it’s a rolling community hang. If you have a bike, you belong.
+
+✨ Colorful outfits and decorated bikes encouraged!
+🚲 Don’t have a bike? A limited number are available to borrow; first come, first served!`,
+        imageURI: "/partnerLogo/fbLogo.png",
+        imageAlt: "Further Bikes Logo",
+        startDate: new Date(2025, 5, 11, 18, 15),
+        endDate: new Date(2025, 5, 11, 19, 30),
+        location: "Further Bikes, 113 W Crawford St",
+        organizer: "Further Bikes"
+    },
 ];
 
 export default events;

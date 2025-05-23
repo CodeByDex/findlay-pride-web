@@ -6,7 +6,7 @@ import Link from 'next/link';
 import dangerouslySetInnerHTML from 'react'
 
 function renderDescription({ desc }: { desc: string }) {
-    return <div dangerouslySetInnerHTML={{ __html: desc }} />;
+    return <div dangerouslySetInnerHTML={{ __html: desc.replace(/\n/g, "<br>") }} />;
 }
 
 export function EventComponent({ eventProps }: { eventProps: Event }) {
