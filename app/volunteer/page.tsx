@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import events from "@/data/eventDB";
-import { EventComponent } from "@/component/event"
+import { EventComponent } from "@/component/eventComponent"
 import { Event } from "@/data/type/Event";
 
 import { Metadata } from "next";
