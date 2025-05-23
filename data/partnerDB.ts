@@ -32,7 +32,7 @@ const partners: Partner[] = [
         imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         organizerURI: "https://spectrumoffindlaylgbt.org/",
         socials: {
-            facebook: "https://www.facebook.com/lgbtqSpectrumofFindlay",
+            facebook: "https://facebook.com/lgbtqSpectrumofFindlay",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -43,9 +43,9 @@ const partners: Partner[] = [
         name: "Kaleidoscope Youth Center",
         imageURI: "/partnerLogo/kycLogo.png",
         imageAlt: "Kaleidoscope Youth Center Logo",
-        organizerURI: "https://www.kycohio.org/",
+        organizerURI: "https://kycohio.org/",
         socials: {
-            facebook: "https://www.facebook.com/KYCOhio/",
+            facebook: "https://facebook.com/KYCOhio/",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -58,7 +58,7 @@ const partners: Partner[] = [
         imageAlt: "Coffee Amici Logo",
         organizerURI: "https://coffeeamici.com/",
         socials: {
-            facebook: "https://www.facebook.com/coffeeamici",
+            facebook: "https://facebook.com/coffeeamici",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -71,7 +71,7 @@ const partners: Partner[] = [
         imageAlt: "First Christian Church Logo",
         organizerURI: "https://www.fccfindlay.org",
         socials: {
-            facebook: "https://www.facebook.com/FindlayFCC/",
+            facebook: "https://facebook.com/FindlayFCC",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -84,7 +84,7 @@ const partners: Partner[] = [
         imageAlt: "Jonny Burritos Logo",
         organizerURI: "https://streetfoodfinder.com/jonnyburritos",
         socials: {
-            facebook: "https://www.facebook.com/jonnyburritos",
+            facebook: "https://facebook.com/jonnyburritos",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -95,9 +95,9 @@ const partners: Partner[] = [
         name: "Findlay Wine Merchant",
         imageURI: "/partnerLogo/WMLogo.png",
         imageAlt: "Findlay Wine Merchant Logo",
-        organizerURI: "https://www.findlaywinemerchant.com/",
+        organizerURI: "https://www.findlaywinemerchant.com",
         socials: {
-            facebook: "https://www.facebook.com/findlaywinemerchant",
+            facebook: "https://facebook.com/findlaywinemerchant",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -108,7 +108,7 @@ const partners: Partner[] = [
         name: "Mooney Design",
         imageURI: "/partnerLogo/mdLogo.png",
         imageAlt: "Mooney Design Logo",
-        organizerURI: "https://mooneybdesign.com/",
+        organizerURI: "https://mooneybdesign.com",
         socials: {
             facebook: undefined,
             bluesky: undefined,
@@ -121,9 +121,9 @@ const partners: Partner[] = [
         name: "The Findlay Office",
         imageURI: "/partnerLogo/tfoLogo.png",
         imageAlt: "The Findlay Office Logo",
-        organizerURI: "https://www.thefindlayoffice.com/",
+        organizerURI: "https://thefindlayoffice.com",
         socials: {
-            facebook: "https://www.facebook.com/thefindlayoffice",
+            facebook: "https://facebook.com/thefindlayoffice",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -134,7 +134,7 @@ const partners: Partner[] = [
         name: "False Chord Brewing",
         imageURI: "/partnerLogo/fcLogo.png",
         imageAlt: "False Chord Brewing Logo",
-        organizerURI: "https://www.falsechordbrewing.com/",
+        organizerURI: "https://www.falsechordbrewing.com",
         socials: {
             facebook: "https://www.facebook.com/falsechordbrewing",
         },
