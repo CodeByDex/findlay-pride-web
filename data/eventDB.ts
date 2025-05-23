@@ -2,11 +2,61 @@ import { Event } from "./type/Event";
 
 const events: Event[] = [
     {
-        name: "Happy Hour with Pride Specials",
-        description: "Mark your calendars for Pride Weekend in Findlay! Join us June 6–8 for events with Findlay Brewing Co. and False Chord Brewing! Stay tuned and get ready to celebrate!",
+        name: "Pride Happy Hour",
+        description: `Join us in the False Chord taproom for Pride Happy Hour on Friday, June 6, from 5 - 7 pm as we launch our Pride drink specials for Pride Month!
+$1 Off all Pride Pints and Pride Flights.
+
+Pride Month Drink Specials:
+Lavender Haze
+Beer cocktail of Feel Good, our Hazy IPA, infused with Lavender syrup
+
+PNK Pony Club
+Beer cocktail of PNK FUZZ, our grapefruit IPA, mixed with cranberry juice
+
+BDE
+A mimosa made with FLUX - Tangerine Cream & Orange Juice
+
+Mic Night & the Frock Destroyers
+Coffee Ale Lattè with special Pride house creamer of Rose, Strawberry, and White Chocolate. Garnished with a sour gummy rainbow. Available with whole milk or oat milk.`,
         startDate: new Date(2025, 5, 6, 17, 0),
         endDate: new Date(2025, 5, 6, 19, 0),
-        location: "Findlay Brewing Company and False Chord",
+        location: "False Chord Brewing",
+        organizer: "False Chord Brewing",
+        organizerURI: "facebook.com/falsechordbrewing",
+        eventURI: "facebook.com/events/999981168578693",
+        imageURI: "/event/fcHappyHour.png",
+        imageAlt: "False Chord branded pint on a rainbow and black background featuring Pride Happy Hour",
+        tags: ["Volunteer Opt"],
+    },
+    {
+        name: "Pride Drink Specials",
+        description: `Pride Month Drink Specials available while supplies last:
+Lavender Haze
+Beer cocktail of Feel Good, our Hazy IPA, infused with Lavender syrup
+
+PNK Pony Club
+Beer cocktail of PNK FUZZ, our grapefruit IPA, mixed with cranberry juice
+
+BDE
+A mimosa made with FLUX - Tangerine Cream & Orange Juice
+
+Mic Night & the Frock Destroyers
+Coffee Ale Lattè with special Pride house creamer of Rose, Strawberry, and White Chocolate. Garnished with a sour gummy rainbow. Available with whole milk or oat milk.`,
+        startDate: new Date(2025, 5, 6, 19, 0),
+        endDate: new Date(2025, 5, 30, 23, 59),
+        location: "False Chord Brewing",
+        organizer: "False Chord Brewing",
+        organizerURI: "facebook.com/falsechordbrewing",
+        imageURI: "/partnerLogo/fcLogo.png",
+        imageAlt: "False Chord Brewing Logo",
+        tags: [],
+    },
+    {
+        name: "Happy Hour with Pride Specials",
+        description: "Mark your calendars for Pride Weekend in Findlay! Join us June 6–8 for events with Findlay Brewing Co.! Stay tuned and get ready to celebrate!",
+        startDate: new Date(2025, 5, 6, 17, 0),
+        endDate: new Date(2025, 5, 6, 19, 0),
+        location: "Findlay Brewing Company",
         organizer: "LGBTQ+ Spectrum of Findlay",
         organizerURI: "facebook.com/lgbtqSpectrumofFindlay",
         eventURI: "facebook.com/share/p/1AaJjy5vWJ/",
@@ -29,15 +79,24 @@ const events: Event[] = [
     },
     {
         name: "Drag Bingo",
-        description: "Mark your calendars for Pride Weekend in Findlay! Join us June 6–8 for events with Findlay Brewing Co. and False Chord Brewing! Stay tuned and get ready to celebrate!",
+        description: `Drag Bingo! Featuring hosts Mary St Jaymes & Stevie Phoenix!
+
+Join us in the taproom for Drag Bingo on Saturday, June 7, from 6:30 - 8:30 pm, co-sponsored by LGBTQ+ Spectrum of Findlay. We will be accepting donations at the event for KYC.
+
+Prizes / Giveaways will be available for Bingo winners.
+
+RESERVED SEATING INFO:
+We will have a limited amount of reserved seating available, with the rest of the seating as first-come-first-served for walk-ins.
+If you are interested in reserving a seat for Drag Bingo, please note that tables seat 4. If you would like to sit together in a group, please order tickets in groups of 4. We will be filling all reserved seats as reservations come in. Each reserved seat includes one drink of your choice from the taproom.
+Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/modality/pickup/itemDetail/BDUsrPeg_6mtzPI-5RXI/' class='underline'>https://www.falsechordbrewing.com/shop</a>`,
         startDate: new Date(2025, 5, 7, 18, 30),
         endDate: new Date(2025, 5, 7, 20, 30),
-        location: "False Chord",
-        organizer: "LGBTQ+ Spectrum of Findlay",
-        organizerURI: "facebook.com/lgbtqSpectrumofFindlay",
-        eventURI: "facebook.com/share/p/1AaJjy5vWJ/",
-        imageURI: "/partnerLogo/sLogo.png",
-        imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
+        location: "False Chord Brewing",
+        organizer: "False Chord Brewing",
+        organizerURI: "facebook.com/falsechordbrewing",
+        eventURI: "facebook.com/events/926414589543239",
+        imageURI: "/event/fcDragBingo.png",
+        imageAlt: "Drag Bingo advertisement featuring a drag queen and drag king",
         tags: ["Volunteer Opt"],
     },
     {

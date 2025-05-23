@@ -6,7 +6,7 @@ import Link from 'next/link';
 import dangerouslySetInnerHTML from 'react'
 
 function renderDescription({ desc }: { desc: string }) {
-    return <div dangerouslySetInnerHTML={{ __html: desc }} />;
+    return <div dangerouslySetInnerHTML={{ __html: desc.replace(/\n/g, "<br>") }} />;
 }
 
 export function EventComponent({ eventProps }: { eventProps: Event }) {
@@ -31,10 +31,10 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
                 <div className=' md:w-3/5 w-full'>
                     {renderDescription({desc: eventProps.description})}
                     {eventProps.eventURI && (
-                        <p><strong>Link:</strong> <Link href={"https://"+eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p>
+                        <div><br/><p><strong>Link:</strong> <Link href={"https://"+eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p></div>
                     )}
                     {eventProps.tags && eventProps.tags.length > 0 && (
-                        <p><strong>Tags:</strong> {eventProps.tags.join(', ')}</p>
+                        <div><br/><p><strong>Tags:</strong> {eventProps.tags.join(', ')}</p></div>
                     )}
                 </div>
             </div>
