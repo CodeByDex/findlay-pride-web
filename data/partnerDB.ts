@@ -130,6 +130,19 @@ const partners: Partner[] = [
         },
         highlight: false
     },
+    {
+        name: "False Chord Brewing",
+        imageURI: "/partnerLogo/fcLogo.png",
+        imageAlt: "False Chord Brewing Logo",
+        organizerURI: "https://www.falsechordbrewing.com/",
+        socials: {
+            facebook: "https://www.facebook.com/falsechordbrewing",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
 ]
 
 export default partners;
