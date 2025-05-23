@@ -204,6 +204,24 @@ What will I do with this painted brick?<ul class="list-disc pl-4"><li>put in you
         eventURI: "https://findlayartleague.org/store/classes/p/paintabrick"
     },
     {
+        name: "Pride Ride",
+        description: `Meet up at the shop around 6:00 pm, then we hit the streets around 6:30 pm for a goofy, joy-filled cruise around downtown! Expect an easy hour-long ride.
+
+        Got a cruiser, BMX, old mountain bike, or something weird with wheels? Perfect. This isn’t a cycling ride — it’s a rolling community hang. If you have a bike, you belong.
+
+✨ Colorful outfits and decorated bikes encouraged!
+🚲 Don’t have a bike? A limited number are available to borrow; first come, first served!
+
+This is a free event, no registration required.`,
+        imageURI: "/partnerLogo/fbLogo.png",
+        imageAlt: "Further Bikes Logo",
+        startDate: new Date(2025, 5, 11, 18, 0),
+        endDate: new Date(2025, 5, 11, 19, 30),
+        location: "Further Bikes, 113 W Crawford St",
+        organizer: "Further Bikes",
+        eventURI: "facebook.com/share/1NjgC4Q5AJ/ "
+    },
+    {
         name: "Rainbow Soda Flights",
         description: "Stop by Reading Grounds all month long to Taste the Rainbow with one of their colorful and tasty soda flights!",
         imageURI: "/event/rgRainbowSoda.jpeg",
