@@ -141,18 +141,45 @@ What will I do with this painted brick?<ul class="list-disc pl-4"><li>put in you
     },
     {
         name: "Pride Ride",
-        description: `Meet up at the shop around 6:15 pm, then we hit the streets for a goofy, joy-filled cruise around downtown! Expect an easy hour-long ride exploring parks, neighborhoods, and all the new bike lanes popping up around town.
+        description: `Meet up at the shop around 6:00 pm, then we hit the streets around 6:30 pm for a goofy, joy-filled cruise around downtown! Expect an easy hour-long ride.
 
         Got a cruiser, BMX, old mountain bike, or something weird with wheels? Perfect. This isn’t a cycling ride — it’s a rolling community hang. If you have a bike, you belong.
 
 ✨ Colorful outfits and decorated bikes encouraged!
-🚲 Don’t have a bike? A limited number are available to borrow; first come, first served!`,
+🚲 Don’t have a bike? A limited number are available to borrow; first come, first served!
+
+This is a free event, no registration required.`,
         imageURI: "/partnerLogo/fbLogo.png",
         imageAlt: "Further Bikes Logo",
-        startDate: new Date(2025, 5, 11, 18, 15),
+        startDate: new Date(2025, 5, 11, 18, 0),
         endDate: new Date(2025, 5, 11, 19, 30),
         location: "Further Bikes, 113 W Crawford St",
-        organizer: "Further Bikes"
+        organizer: "Further Bikes",
+        eventURI: "facebook.com/share/1NjgC4Q5AJ/ "
+    },
+    {
+        name: "Rainbow Soda Flights",
+        description: "Stop by Reading Grounds all month long to Taste the Rainbow with one of their colorful and tasty soda flights!",
+        imageURI: "/event/rgRainbowSoda.jpeg",
+        imageAlt: "four mini colored sodas red, yellow blue and purple",
+        startDate: new Date(2025, 5, 1, 0, 0),
+        endDate: new Date(2025, 5, 30, 23, 59),
+        location: "Reading Grounds",
+        organizer: "Reading Grounds",
+        organizerURI: "readinggroundsohio.com/"
+    },
+    {
+        name: "Rainbow Flower Bouquet",
+        description: `Join Reading Grounds and Restoration Flower Farms for a make your own bouquet workshop, rainbow colored of course!
+        
+        Details on signing up coming soon!`,
+        imageURI: "/partnerLogo/rgLogo.png",
+        imageAlt: "Reading Grounds Logo",
+        startDate: new Date(2025, 5, 14, 0, 0),
+        endDate: new Date(2025, 5, 14, 23, 59),
+        location: "Reading Grounds",
+        organizer: "Reading Grounds",
+        organizerURI: "readinggroundsohio.com/"
     },
 ];
 
