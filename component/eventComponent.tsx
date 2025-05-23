@@ -15,7 +15,7 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
         <div className="shadow-box flex flex-col">
             <div className='text-2xl'>
                 <h2>{eventProps.organizer}: {eventProps.name}</h2>
-                {eventProps.organizerURI && (<Link href={"https://"+eventProps.organizerURI} className='underline text-sm' target='_blank'>{eventProps.organizerURI}</Link>)}
+                {eventProps.organizerURI && (<Link href={eventProps.organizerURI} className='underline text-sm' target='_blank'>{eventProps.organizerURI}</Link>)}
             </div>
             <div className="flex flex-row flex-wrap">
                 <div className='md:w-1/4 w-full p-4'>
@@ -31,10 +31,10 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
                 <div className=' md:w-3/5 w-full'>
                     {renderDescription({desc: eventProps.description})}
                     {eventProps.eventURI && (
-                        <div><br /><p><strong>Event Link:</strong> <Link href={"https://"+eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p></div>
+                        <div><br/><p><strong>Link:</strong> <Link href={eventProps.eventURI} className='underline' target='_blank'>{eventProps.eventURI}</Link></p></div>
                     )}
                     {eventProps.tags && eventProps.tags.length > 0 && (
-                        <div><br /><p><strong>Tags:</strong> {eventProps.tags.join(', ')}</p></div>
+                        <div><br/><p><strong>Tags:</strong> {eventProps.tags.join(', ')}</p></div>
                     )}
                 </div>
             </div>

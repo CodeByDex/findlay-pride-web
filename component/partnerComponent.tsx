@@ -8,13 +8,13 @@ import bsLogo from "@public/icons8-bluesky.svg"
 
 export function PartnerComponent({ partnerProps }: { partnerProps: Partner }) {
     return (
-        <div>
+        <div className='flex flex-col items-center justify-end'>
             {partnerProps.imageURI && partnerProps.imageAlt && (
                 <div><Image src={partnerProps.imageURI} width={200} height={200} className='rounded-sm' alt={partnerProps.imageAlt} /></div>
             )}
-            <div>{partnerProps.name}</div>
+            <div className='text-lg'>{partnerProps.name}</div>
             {partnerProps.organizerURI && (
-                <div><Link href={partnerProps.organizerURI} target="_blank" className="underline">{partnerProps.organizerURI}</Link></div>
+                <div className='text-sm'><Link href={partnerProps.organizerURI} target="_blank" className="underline">{partnerProps.organizerURI}</Link></div>
             )}
             <div className="flex items-center gap-5">
                 {partnerProps.socials.facebook && (
