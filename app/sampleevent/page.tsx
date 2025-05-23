@@ -1,5 +1,5 @@
 import { Event, EventDefaultSort } from "@/data/type/Event"
-import { EventComponent } from "@/component/event"
+import { EventComponent } from "@/component/eventComponent"
 import eventsFromFile from "@/data/eventDB";
 
 const events: Event[] = [

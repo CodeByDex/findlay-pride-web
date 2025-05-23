@@ -1,4 +1,4 @@
-import { EventComponent } from "@/component/event"
+import { EventComponent } from "@/component/eventComponent"
 import events from "@/data/eventDB";
 import Link from "next/link";
 import { EventDefaultSort } from "@/data/type/Event";

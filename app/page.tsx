@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import events from "@/data/eventDB";
-import { EventComponent } from "@/component/event"
+import { EventComponent } from "@/component/eventComponent"
 import { Event, EventDefaultSort } from "@/data/type/Event";
 
 function getEventsToDisplay(): Event[] {
