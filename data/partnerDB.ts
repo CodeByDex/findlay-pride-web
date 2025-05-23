@@ -117,6 +117,19 @@ const partners: Partner[] = [
         },
         highlight: false
     },
+    {
+        name: "The Findlay Office",
+        imageURI: "/partnerLogo/tfoLogo.png",
+        imageAlt: "The Findlay Office Logo",
+        organizerURI: "https://www.thefindlayoffice.com/",
+        socials: {
+            facebook: "https://www.facebook.com/thefindlayoffice",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
 ]
 
 export default partners;
