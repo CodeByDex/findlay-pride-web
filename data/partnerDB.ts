@@ -143,6 +143,19 @@ const partners: Partner[] = [
         },
         highlight: false
     },
+    {
+        name: "Further Bikes",
+        imageURI: "/partnerLogo/fbLogo.png",
+        imageAlt: "Further Bikes Logo",
+        organizerURI: "",
+        socials: {
+            facebook: undefined,
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
 ]
 
 export default partners;
