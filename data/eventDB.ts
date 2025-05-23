@@ -41,9 +41,14 @@ BDE
 A mimosa made with FLUX - Tangerine Cream & Orange Juice
 
 Mic Night & the Frock Destroyers
-Coffee Ale Lattè with special Pride house creamer of Rose, Strawberry, and White Chocolate. Garnished with a sour gummy rainbow. Available with whole milk or oat milk.`,
-        startDate: new Date(2025, 5, 6, 19, 0),
-        endDate: new Date(2025, 5, 30, 23, 59),
+Coffee Ale Lattè with special Pride house creamer of Rose, Strawberry, and White Chocolate. Garnished with a sour gummy rainbow. Available with whole milk or oat milk.
+
+Hours:
+Wed-Fri 4:30-10PM
+Sat 2-10PM
+Sun 12-7PM`,
+        startDate: new Date(2025, 5, 6, 14, 0),
+        endDate: new Date(2025, 5, 29, 19, 0),
         location: "False Chord Brewing",
         organizer: "False Chord Brewing",
         organizerURI: "facebook.com/falsechordbrewing",
