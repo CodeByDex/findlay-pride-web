@@ -1,0 +1,122 @@
+import { Partner } from "./type/Partner";
+
+const partners: Partner[] = [
+    // {
+    //     name: "",
+    //     imageURI: "",
+    //     imageAlt: "",
+    //     organizerURI: "",
+    //     socials: {
+    //         facebook: undefined,
+    //         bluesky: undefined,
+    //         linkedIn: undefined,
+    //         instagram: undefined
+    //     },
+    //     highlight: false
+    // },
+    {
+        name: "Findlay Pride Potluck",
+        imageURI: "/partnerLogo/fppLogo.svg",
+        imageAlt: "Findlay Pride Potluck Logo",
+        socials: {
+            facebook: "https://facebook.com/FindlayPride",
+            bluesky: "https://bsky.app/profile/findlaypride.com",
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: true
+    },
+    {
+        name: "LGBTQ+ Spectrum of Findlay",
+        imageURI: "/partnerLogo/sLogo.png",
+        imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
+        organizerURI: "https://spectrumoffindlaylgbt.org/",
+        socials: {
+            facebook: "https://www.facebook.com/lgbtqSpectrumofFindlay",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: true
+    },
+    {
+        name: "Kaleidoscope Youth Center",
+        imageURI: "/partnerLogo/kycLogo.png",
+        imageAlt: "Kaleidoscope Youth Center Logo",
+        organizerURI: "https://www.kycohio.org/",
+        socials: {
+            facebook: "https://www.facebook.com/KYCOhio/",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: true
+    },
+    {
+        name: "Coffee Amici",
+        imageURI: "/partnerLogo/CALogo.png",
+        imageAlt: "Coffee Amici Logo",
+        organizerURI: "https://coffeeamici.com/",
+        socials: {
+            facebook: "https://www.facebook.com/coffeeamici",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "First Christian Church",
+        imageURI: "/partnerLogo/firstChristian.png",
+        imageAlt: "First Christian Church Logo",
+        organizerURI: "https://www.fccfindlay.org",
+        socials: {
+            facebook: "https://www.facebook.com/FindlayFCC/",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Jonny Burritos",
+        imageURI: "/partnerLogo/jbLogo.png",
+        imageAlt: "Jonny Burritos Logo",
+        organizerURI: "https://streetfoodfinder.com/jonnyburritos",
+        socials: {
+            facebook: "https://www.facebook.com/jonnyburritos",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Findlay Wine Merchant",
+        imageURI: "/partnerLogo/WMLogo.png",
+        imageAlt: "Findlay Wine Merchant Logo",
+        organizerURI: "https://www.findlaywinemerchant.com/",
+        socials: {
+            facebook: "https://www.facebook.com/findlaywinemerchant",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Mooney Design",
+        imageURI: "/partnerLogo/mdLogo.png",
+        imageAlt: "Mooney Design Logo",
+        organizerURI: "https://mooneybdesign.com/",
+        socials: {
+            facebook: undefined,
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+]
+
+export default partners;
