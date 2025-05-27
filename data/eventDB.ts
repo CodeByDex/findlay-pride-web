@@ -119,13 +119,17 @@ Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/m
     },
     {
         name: "Pride Month Drink Special",
-        description: "Stop in all month long to check out our rotating drink specials for Pride Month!",
+        description: `Happy Pride Month, Findlay! To celebrate, we are featuring a special wine and themed cocktails all month.
+
+The wine is Cherries & Rainbows Organic Sans Soufre Red Blend, $19.99. “Unconventional and lighthearted, Cherries & Rainbows hails from Minervois, France. It’s made with zero added sulfur (sans soufre in French) in an eco-friendly winery. It's a bottle that celebrates the natural wine movement, bringing this fresh, bright, and chillable red to adventurous drinkers. The ripeness and inherent nature of each grape comes through in the final product, with the Merlot showing dark, round fruit and the Syrah contributing spice and earth.” 
+
+As for the cocktails, stay tuned to our social media for future details, but we will be starting with our twist on the Pride Summer Cooler, a watermelon vodka cocktail with some lime, agave, and vermouth… and who knows what else we might add 😬`,
         startDate: new Date(2025, 5, 2, 10, 0),
         endDate: new Date(2025, 5, 30, 18, 0),
         location: "Findlay Wine Merchant - 540 S. Main St",
         organizer: "Findlay Wine Merchant",
         organizerURI: "https://facebook.com/findlaywinemerchant",
-        imageURI: "/partnerLogo/WMLogo.png",
+        imageURI: "/event/wmFun.png",
         imageAlt: "Wine Merchant Logo",
     },
     {
