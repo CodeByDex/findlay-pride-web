@@ -230,7 +230,8 @@ This is a free event, no registration required.`,
         endDate: new Date(2025, 5, 30, 23, 59),
         location: "Reading Grounds - 1041 N. Main St",
         organizer: "Reading Grounds",
-        organizerURI: "https://readinggroundsohio.com"
+        organizerURI: "https://readinggroundsohio.com",
+        tags: ["LGBTQ+ Owned", "Family Friendly"]
     },
     {
         name: "Rainbow Flower Bouquet",
@@ -243,7 +244,8 @@ This is a free event, no registration required.`,
         endDate: new Date(2025, 5, 14, 23, 59),
         location: "Reading Grounds - 1041 N. Main St",
         organizer: "Reading Grounds",
-        organizerURI: "https://readinggroundsohio.com"
+        organizerURI: "https://readinggroundsohio.com",
+        tags: ["LGBTQ+ Owned", "Family Friendly"]
     },
 ];
 
