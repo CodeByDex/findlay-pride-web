@@ -4,7 +4,7 @@ const events: Event[] = [
     {
         name: "Pride Happy Hour",
         description: `Join us in the False Chord taproom for Pride Happy Hour on Friday, June 6, from 5 - 7 pm as we launch our Pride drink specials for Pride Month!
-$1 Off all Pride Pints and Pride Flights.
+$1 will be donated to KYC per Pride Pint and Pride Flight sold during Pride Happy Hour.
 
 Pride Month Drink Specials:
 Lavender Haze
