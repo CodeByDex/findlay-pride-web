@@ -167,7 +167,7 @@ Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/m
     },
     {
         name: "Brewito Monday",
-        description: "During the June Brewito Monday event, Jonny Burritos will have a Pride-month themed menu, including rainbow rice in all burritos!",
+        description: "During the June Brewito Monday event, Jonny Burritos will have a Pride-month themed menu, including rainbow rice in all burritos! While Jonny slings burritos, FBC will have a full bar open with beer, wine, cocktails, and n/a beverages! Plus enjoy some funky music by HawkBeat. ",
         startDate: new Date(2025, 5, 16, 17, 0),
         endDate: new Date(2025, 5, 16, 20, 0),
         location: "Findlay Brewing Company - 213 E. Crawford St",
@@ -175,6 +175,7 @@ Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/m
         organizerURI: "https://facebook.com/jonnyburritos",
         imageURI: "/event/JBEvent.png",
         imageAlt: "Open half burrito with rainbow rice",
+        eventURI: "https://facebook.com/share/15mTwkkpeW/ "
     },
     {
         name: "Paint A Brick",
