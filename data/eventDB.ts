@@ -167,7 +167,7 @@ Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/m
     },
     {
         name: "Brewito Monday",
-        description: "During the June Brewito Monday event, Jonny Burritos will have a Pride-month themed menu, including rainbow rice in all burritos!",
+        description: `During the June Brewito Monday event, Jonny Burritos will have a Pride-month themed menu, including rainbow rice in all burritos! While Jonny slings burritos, FBC will have a full bar open with beer, wine, cocktails, and n/a beverages! Plus enjoy some funky music by <a href="https://facebook.com/profile.php?id=61574639848750" target="_blank" class="underline">HawkBeat</a>. `,
         startDate: new Date(2025, 5, 16, 17, 0),
         endDate: new Date(2025, 5, 16, 20, 0),
         location: "Findlay Brewing Company - 213 E. Crawford St",
@@ -175,6 +175,7 @@ Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/m
         organizerURI: "https://facebook.com/jonnyburritos",
         imageURI: "/event/JBEvent.png",
         imageAlt: "Open half burrito with rainbow rice",
+        eventURI: "https://facebook.com/share/15mTwkkpeW/ "
     },
     {
         name: "Paint A Brick",
@@ -230,7 +231,8 @@ This is a free event, no registration required.`,
         endDate: new Date(2025, 5, 30, 23, 59),
         location: "Reading Grounds - 1041 N. Main St",
         organizer: "Reading Grounds",
-        organizerURI: "https://readinggroundsohio.com"
+        organizerURI: "https://readinggroundsohio.com",
+        tags: ["LGBTQ+ Owned", "Family Friendly"]
     },
     {
         name: "Rainbow Flower Bouquet",
@@ -243,8 +245,22 @@ This is a free event, no registration required.`,
         endDate: new Date(2025, 5, 14, 23, 59),
         location: "Reading Grounds - 1041 N. Main St",
         organizer: "Reading Grounds",
-        organizerURI: "https://readinggroundsohio.com"
+        organizerURI: "https://readinggroundsohio.com",
+        tags: ["LGBTQ+ Owned", "Family Friendly"]
     },
+    {
+        name: "Free Gift With $25 Purchase",
+        description: `Stop by Trends on Main from June 6-7 to receive a free gift with a purchase of $25!
+        
+        Available in store, must show this ad to receive, available while supplies last`,
+        imageAlt: "Trends on Main Advert",
+        startDate: new Date(2025, 5, 6, 0, 0),
+        endDate: new Date(2025, 5, 7, 23, 59),
+        location: "Trends on Main - 501 S Main St",
+        imageURI: "/event/tomPromo.png",
+        organizer: "Trends on Main",
+        organizerURI: "https://trendsonmain.com"
+    }
 ];
 
 export default events;

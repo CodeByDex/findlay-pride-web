@@ -166,6 +166,19 @@ const partners: Partner[] = [
         },
         highlight: false
     },
+    {
+        name: "Findlay High School Genders and Sexualities Association",
+        imageURI: "/partnerLogo/fhsgsaLogo.png",
+        imageAlt: "Findlay High School Gender and Sexualities Association Logo",
+        organizerURI: "",
+        socials: {
+            facebook: "https://www.facebook.com/Findlay.High.School.GSA",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
 ]
 
 export default partners;
