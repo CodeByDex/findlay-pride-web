@@ -248,6 +248,19 @@ This is a free event, no registration required.`,
         organizerURI: "https://readinggroundsohio.com",
         tags: ["LGBTQ+ Owned", "Family Friendly"]
     },
+    {
+        name: "Free Gift With $25 Purchase",
+        description: `Stop by Trends on Main from June 6-7 to receive a free gift with a purchase of $25!
+        
+        Available in store, must show this ad to receive, available while supplies last`,
+        imageAlt: "Trends on Main Advert",
+        startDate: new Date(2025, 5, 6, 0, 0),
+        endDate: new Date(2025, 5, 7, 23, 59),
+        location: "Trends on Main - 501 S Main St",
+        imageURI: "/event/tomPromo.png",
+        organizer: "Trends on Main",
+        organizerURI: "https://trendsonmain.com"
+    }
 ];
 
 export default events;
