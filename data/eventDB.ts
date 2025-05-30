@@ -57,28 +57,56 @@ Sun 12-7PM`,
         tags: [],
     },
     {
-        name: "Happy Hour with Pride Specials",
-        description: "Mark your calendars for Pride Weekend in Findlay! Join us June 6–8 for events with Findlay Brewing Co.! Stay tuned and get ready to celebrate!",
+        name: "Pride Happy Hour",
+        description: `Join us in our beer garden for a special Pride Happy Hour to kick off Pride Month!
+
+Specials:
+$5 select appetizers
+$1 off FBC pints
+$8 FBC flights
+
+Giving Back:
+They/Them will be tapped, and $1 from every pint sold (through its full run) goes to Kaleidoscope Youth Center! Also, starting June 6 and running through the end of the month, $1 from each Pride Lemonade cocktail (single pour) will also be donated to KYC.
+
+Onsite Donations:
+Kaleidoscope Youth Center will have a donation table on the beer garden.
+
+FBC will collect donations all month. Ask your server or bartender how to contribute.
+
+Let’s raise a glass and support LGBTQ+ youth together!`,
         startDate: new Date(2025, 5, 6, 17, 0),
         endDate: new Date(2025, 5, 6, 19, 0),
         location: "Findlay Brewing Company - 213 E. Crawford St",
-        organizer: "LGBTQ+ Spectrum of Findlay",
+        organizer: "LGBTQ+ Spectrum of Findlay w/ Findlay Brewing Company",
         organizerURI: "https://facebook.com/lgbtqSpectrumofFindlay",
-        eventURI: "https://facebook.com/share/p/1AaJjy5vWJ",
-        imageURI: "/partnerLogo/sLogo.png",
-        imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
+        eventURI: "https://facebook.com/events/9739901576106282/",
+        imageURI: "/event/fbcHappyHour.png",
+        imageAlt: "Pint Glass with a rainbow background with the text Pride Happy Hour",
         tags: ["Volunteer Opt"],
     },
     {
-        name: "Drag Tap Room Yoga",
-        description: "Mark your calendars for Pride Weekend in Findlay! Join us June 6–8 for events with Findlay Brewing Co. and False Chord Brewing! Stay tuned and get ready to celebrate!",
+        name: "Drag Taproom Yoga",
+        description: `Drag Taproom Yoga with instructor Erin Teegardin and performers Mary St. Jaymes and Stevie Phoenix!
+
+        Event Details:
+Beginner-level yoga session
+$15 to participate; walk-ins are welcome
+
+One free drink per registrant of age
+
+Instructed by Erin Teegardin and guest hosted by by performers Mary St Jaymes and Stevie Phoenix!
+
+Donations:
+FBC will also collect donations on behalf of Kaleidoscope Youth Center throughout June. Ask your server or bartender about making a donation.
+
+Join us for a refreshing yoga session and support a good cause!`,
         startDate: new Date(2025, 5, 7, 10, 0),
         endDate: new Date(2025, 5, 7, 11, 0),
         location: "Findlay Brewing Company - 213 E. Crawford St",
         organizer: "LGBTQ+ Spectrum of Findlay",
         organizerURI: "https://facebook.com/lgbtqSpectrumofFindlay",
-        eventURI: "https://facebook.com/share/p/1AaJjy5vWJ",
-        imageURI: "/partnerLogo/sLogo.png",
+        eventURI: "https://facebook.com/events/702001582423464/",
+        imageURI: "/event/fbcYoga.png",
         imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
     },
@@ -106,14 +134,23 @@ Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/m
     },
     {
         name: "Drag Brunch",
-        description: "Mark your calendars for Pride Weekend in Findlay! Join us June 6–8 for events with Findlay Brewing Co. and False Chord Brewing! Stay tuned and get ready to celebrate!",
+        description: `What to Expect:
+🪑 First come, first served seating
+🥓 Exclusive brunch menu (while supplies last)
+🍻 All-day happy hour on select appetizers and FBC beer
+💃 Drag performances by Mary St Jaymes and Santana
+
+Support a Cause:
+We're collecting donations for Kaleidoscope Youth Center throughout June. Ask your server or bartender how you can help support LGBTQ+ youth.
+
+Kick off your Sunday with great food, drinks and a fabulous show. Don’t miss it!`,
         startDate: new Date(2025, 5, 8, 9, 0),
         endDate: new Date(2025, 5, 8, 11, 0),
         location: "Findlay Brewing Company - 213 E. Crawford St",
-        organizer: "LGBTQ+ Spectrum of Findlay",
+        organizer: "LGBTQ+ Spectrum of Findlay w/ Findlay Brewing Company",
         organizerURI: "https://facebook.com/lgbtqSpectrumofFindlay",
-        eventURI: "https://facebook.com/share/p/1AaJjy5vWJ",
-        imageURI: "/partnerLogo/sLogo.png",
+        eventURI: "https://facebook.com/events/717607064127347/",
+        imageURI: "/event/fbcBrunch.png",
         imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
     },
