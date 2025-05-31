@@ -268,7 +268,7 @@ This is a free event, no registration required.`,
     {
         name: "Rainbow Soda Flights",
         description: "Stop by Reading Grounds all month long to Taste the Rainbow with one of their colorful and tasty soda flights!",
-        imageURI: "/event/rgRainbowSoda.jpeg",
+        imageURI: "/event/rgRainbowSoda.png",
         imageAlt: "four mini colored sodas red, yellow blue and purple",
         startDate: new Date(2025, 5, 1, 0, 0),
         endDate: new Date(2025, 5, 30, 23, 59),
@@ -278,18 +278,23 @@ This is a free event, no registration required.`,
         tags: ["LGBTQ+ Owned", "Family Friendly"]
     },
     {
-        name: "Rainbow Flower Bouquet",
-        description: `Join Reading Grounds and Restoration Flower Farms for a make your own bouquet workshop, rainbow colored of course!
-        
-        Details on signing up coming soon!`,
-        imageURI: "/partnerLogo/rgLogo.png",
+        name: "Rainbow Bouquet Making Class 🌈",
+        description: `You get to make your own Rainbow Bouquet and get a drink to go with it! 
+
+Stop in at Reading Grounds to sign up and pay for the class with Ben from <a href='http://www.instagram.com/restorationflowerfarms' target="_blank" class="underline">@restorationflowerfarms</a>
+
+Registration is $45 and in person only at Reading Grounds. There are only 25 spots so grab one quickly. The deadline to sign up is June 9th so Ben can be sure to have all the supplies ready for you! 
+
+Grab a friend and grab your spot. You won’t want to miss this chance to make beautiful rainbow bouquets.`,
+        imageURI: "/event/rgFlower.png",
         imageAlt: "Reading Grounds Logo",
-        startDate: new Date(2025, 5, 14, 0, 0),
-        endDate: new Date(2025, 5, 14, 23, 59),
+        startDate: new Date(2025, 5, 14, 11, 0),
+        endDate: new Date(2025, 5, 14, 12, 0),
         location: "Reading Grounds - 1041 N. Main St",
         organizer: "Reading Grounds",
         organizerURI: "https://readinggroundsohio.com",
-        tags: ["LGBTQ+ Owned", "Family Friendly"]
+        tags: ["LGBTQ+ Owned", "Family Friendly"],
+        eventURI: "https://facebook.com/share/p/19F5wBpY4K/"
     },
     {
         name: "Free Gift With $25 Purchase",
