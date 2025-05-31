@@ -27,6 +27,7 @@ Coffee Ale Lattè with special Pride house creamer of Rose, Strawberry, and Whit
         imageURI: "/event/fcHappyHour.png",
         imageAlt: "False Chord branded pint on a rainbow and black background featuring Pride Happy Hour",
         tags: ["Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054EABAD2EA1F4C16-57090862-pride#/"
     },
     {
         name: "Pride Drink Specials",
@@ -83,6 +84,7 @@ Let’s raise a glass and support LGBTQ+ youth together!`,
         imageURI: "/event/fbcHappyHour.png",
         imageAlt: "Pint Glass with a rainbow background with the text Pride Happy Hour",
         tags: ["Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054EABAD2EA1F4C16-57090862-pride#/"
     },
     {
         name: "Drag Taproom Yoga",
@@ -109,6 +111,7 @@ Join us for a refreshing yoga session and support a good cause!`,
         imageURI: "/event/fbcYoga.png",
         imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054EABAD2EA1F4C16-57090862-pride#/"
     },
     {
         name: "Drag Bingo",
@@ -131,6 +134,7 @@ Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/m
         imageURI: "/event/fcDragBingo.png",
         imageAlt: "Drag Bingo advertisement featuring a drag queen and drag king",
         tags: ["Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054EABAD2EA1F4C16-57090862-pride#/"
     },
     {
         name: "Drag Brunch",
@@ -153,6 +157,7 @@ Kick off your Sunday with great food, drinks and a fabulous show. Don’t miss i
         imageURI: "/event/fbcBrunch.png",
         imageAlt: "LGBTQ+ SPectrum of Findlay Logo",
         tags: ["Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054EABAD2EA1F4C16-57090862-pride#/"
     },
     {
         name: "Pride Month Drink Special",
@@ -201,6 +206,7 @@ Kick off your Sunday with great food, drinks and a fabulous show. Don’t miss i
         imageURI: "/partnerLogo/fppLogo.svg",
         imageAlt: "Findlay Pride Potluck Logo",
         tags: ["Volunteer Opt", "Sober", "Family Friendly"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054EABAD2EA1F4C16-57090862-pride#/"
     },
     {
         name: "Brewito Monday",

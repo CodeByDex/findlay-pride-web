@@ -10,6 +10,7 @@ export type Event = {
     organizerURI?: string;
     eventURI?: string;
     tags?: string[];
+    volunteerURI?: string;
 };
 
 export function EventDefaultSort(thingsToSort: Event[]): Event[] {

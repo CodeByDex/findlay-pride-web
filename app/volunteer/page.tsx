@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import events from "@/data/eventDB";
-import { EventComponent } from "@/component/eventComponent"
+import {VolunteerComponent} from "@component/volunteerComponent"
 import { Event, EventDefaultSort } from "@/data/type/Event";
 
 import { Metadata } from "next";
@@ -16,7 +16,7 @@ function getEventsToDisplay(): Event[] {
   var displayEvents: Event[] = events.filter((event) => {
     return (event.startDate >= currentDate && event.tags?.includes("Volunteer Opt"))
   });
-  console.log(displayEvents)
+
   return displayEvents;
 }
 
@@ -31,7 +31,7 @@ export default function Home() {
         <div>
           <div className="flex flex-col gap-[32px]">
             {EventDefaultSort(getEventsToDisplay()).map((event, index) => (
-              <EventComponent key={index} eventProps={event} />
+              <VolunteerComponent key={index} eventProps={event}  />
             ))}
           </div>
         </div>
