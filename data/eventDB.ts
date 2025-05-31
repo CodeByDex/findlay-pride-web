@@ -306,11 +306,11 @@ This is a free event, no registration required.`,
     }, 
     {
         name: "LOVE WINS FIZZ Cocktail",
-        description: `As June approaches, Mancy's Steakhouse and Hancock Hotel recognize and celebrate LGBTQ+ Pride Month. We're excited to participate in Findlay's Pride celebrations all month long with our special LOVE WINS FIZZ cocktail —a vibrant blend of Empress Gin, pineapple juice, Aperol, Wycliff, and blood orange.`,
+        description: `Mancy's Steakhouse and Hancock Hotel recognize and celebrate LGBTQ+ Pride Month. We're excited to participate in Findlay's Pride celebrations all month long with our special LOVE WINS FIZZ cocktail —a vibrant blend of Empress Gin, pineapple juice, Aperol, Wycliff, and blood orange.`,
         imageURI: "/event/mCocktail.png",
         imageAlt: "Orange cocktail with a lemon garnish",
         startDate: new Date(2025, 5, 1, 0, 0),
-        endDate: new Date(2025, 5, 31, 23, 59),
+        endDate: new Date(2025, 5, 30, 23, 59),
         location: "Mancy's Steakhouse - 631 S Main St",
         organizer: "Mancy's Steakhouse and Hancock Hotel",
         organizerURI: "https://www.hancockhotel.com"
