@@ -347,7 +347,6 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         location: "Various Locations in Findlay",
         eventURI: "https://www.hancockohdems.org/",
         imageURI: "/event/hdSB1.png",
-        organizer: "Hancock County Ohio Democratic Party",
         organizerURI: "https://www.facebook.com/HancockOHDems",
         volunteerURI: "https://docs.google.com/forms/d/e/1FAIpQLSePTgRhX2MyRJ6PjmhAgV4oYcyz7Z0295El5sxfZ04bpjoE4Q/viewform?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR2FzeWFnUkpYOEc2dW9uWAEe7HN0M2rcv7y2JkwPE4Ah-f6fOGMNCqCgsc6QEGQJoG_Hu-v1MkugwqkhdRc_aem_I62manFjZYDwK_zM2v1TNQ",
         tags: ["Volunteer Opt"]
