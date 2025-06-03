@@ -324,6 +324,31 @@ Grab a friend and grab your spot. You won’t want to miss this chance to make b
         organizer: "Mancy's Steakhouse and Hancock Hotel",
         organizerURI: "https://www.hancockhotel.com"
     },
+    {
+        name: "SB 1 Repeal Petition Signature Drive",
+        description: `Join Hackcock County Democrats in helping to repeal the "Advance Ohio Higher Education Act."
+
+​It bans diversity initiatives at public universities, forbids faculty from striking, and gives politicians control over classroom content. In spite of over 1500 testimonies opposing S.B. 1, Representative Ty Mathews voted for it and Governor DeWine signed it into law.  
+
+But members of the Youngstown State University’s chapter of the Ohio Education Association have begun the process of giving Ohio voters the chance to decide if S.B. 1 should be the law. Nearly 250,000 signatures from around the state are needed to place a referendum on this November ballot. 
+
+Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You can sign the petition at one of these events in downtown Findlay:  
+ - June 6 5-7PM @ False Chord Brewing - 326 S. Main St
+ - June 7 9-11AM @ Findlay Brewing Company - 213 E. Crawford St
+ - June 7 Noon-3PM @ Courthouse - 300 S. Main St
+ - June 7 5-7PM @ False Chord Brewing - 326 S. Main St
+ - June 8 9-11AM @ Findlay Brewing Company - 213 E. Crawford St`,
+        imageAlt: "",
+        startDate: new Date(2025, 5, 6, 17, 0),
+        endDate: new Date(2025, 5, 8, 11, 0),
+        location: "Various Locations in Downtown Findlay",
+        eventURI: "https://www.hancockohdems.org/",
+        imageURI: "/event/hdSB1.png",
+        organizer: "Hancock County Ohio Democratic Party",
+        organizerURI: "https://www.facebook.com/HancockOHDems",
+        volunteerURI: "https://docs.google.com/forms/d/e/1FAIpQLSePTgRhX2MyRJ6PjmhAgV4oYcyz7Z0295El5sxfZ04bpjoE4Q/viewform?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR2FzeWFnUkpYOEc2dW9uWAEe7HN0M2rcv7y2JkwPE4Ah-f6fOGMNCqCgsc6QEGQJoG_Hu-v1MkugwqkhdRc_aem_I62manFjZYDwK_zM2v1TNQ",
+        tags: ["Volunteer Opt"]
+    }
 ];
 
 export default events;
