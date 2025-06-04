@@ -326,7 +326,7 @@ Grab a friend and grab your spot. You won’t want to miss this chance to make b
     },
     {
         name: "SB 1 Repeal Petition Signature Drive",
-        description: `Join Hancock County Democrats in helping to repeal the "Advance Ohio Higher Education Act."
+        description: `Help repeal the "Advance Ohio Higher Education Act."
 
 ​It bans diversity initiatives at public universities, forbids faculty from striking, and gives politicians control over classroom content. In spite of over 1500 testimonies opposing S.B. 1, Representative Ty Mathews voted for it and Governor DeWine signed it into law.  
 
@@ -345,9 +345,8 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         startDate: new Date(2025, 5, 6, 17, 0),
         endDate: new Date(2025, 5, 14, 18, 0),
         location: "Various Locations in Findlay",
-        eventURI: "https://www.hancockohdems.org/",
+        eventURI: "https://ohsb1petition.com",
         imageURI: "/event/hdSB1.png",
-        organizerURI: "https://www.facebook.com/HancockOHDems",
         volunteerURI: "https://docs.google.com/forms/d/e/1FAIpQLSePTgRhX2MyRJ6PjmhAgV4oYcyz7Z0295El5sxfZ04bpjoE4Q/viewform?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR2FzeWFnUkpYOEc2dW9uWAEe7HN0M2rcv7y2JkwPE4Ah-f6fOGMNCqCgsc6QEGQJoG_Hu-v1MkugwqkhdRc_aem_I62manFjZYDwK_zM2v1TNQ",
         tags: ["Volunteer Opt"]
     }
