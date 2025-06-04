@@ -326,15 +326,15 @@ Grab a friend and grab your spot. You won’t want to miss this chance to make b
     },
     {
         name: `"Everyone is Welcome Here" Fundraiser`,
-        description: `Join Ax Ventura in supporting Kaleidoscope Youth Center (KYC) with the purchase of one of their "Everyone is Welcome Here" shirts. A portion of each sale will benefit KYC!
+        description: `Join Axe Ventura in supporting Kaleidoscope Youth Center (KYC) with the purchase of one of their "Everyone is Welcome Here" shirts. A portion of each sale will benefit KYC!
         
         From bold designs to badass comfort, this gear is made to impress. Be the envy of your crew and rep the brand that brings the heat.
 📩 DM us now to place your order — or swing by and grab yours before it’s gone! 💥`,
         imageAlt: "Collection of black and white t-shirts with Ax Ventura logos and the Everyone is Welcome here slogan",
         startDate: new Date(2025, 5, 1, 0, 0),
         endDate: new Date(2025, 5, 30, 23, 59),
-        location: "Ax Ventura - 403 S. Main St",
-        organizer: "Ax Ventura",
+        location: "Axe Ventura - 403 S. Main St",
+        organizer: "Axe Ventura",
         organizerURI: "https://axe-ventura.com/findlay/",
         eventURI: "https://www.facebook.com/share/p/1DuBaBjbaD/",
         imageURI: "/event/avShirt.png"
