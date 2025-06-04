@@ -124,7 +124,9 @@ Prizes / Giveaways will be available for Bingo winners.
 RESERVED SEATING INFO:
 We will have a limited amount of reserved seating available, with the rest of the seating as first-come-first-served for walk-ins.
 If you are interested in reserving a seat for Drag Bingo, please note that tables seat 4. If you would like to sit together in a group, please order tickets in groups of 4. We will be filling all reserved seats as reservations come in. Each reserved seat includes one drink of your choice from the taproom.
-Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/modality/pickup/itemDetail/BDUsrPeg_6mtzPI-5RXI/' class='underline' target='_blank'>https://www.falsechordbrewing.com/shop</a>`,
+Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/modality/pickup/itemDetail/BDUsrPeg_6mtzPI-5RXI/' class='underline' target='_blank'>https://www.falsechordbrewing.com/shop</a>
+
+This event is 21+`,
         startDate: new Date(2025, 5, 7, 18, 30),
         endDate: new Date(2025, 5, 7, 20, 30),
         location: "False Chord Brewing - 326 S Main St",
