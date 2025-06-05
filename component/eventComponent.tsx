@@ -14,7 +14,7 @@ export function EventComponent({ eventProps }: { eventProps: Event }) {
     return (
         <div className="shadow-box flex flex-col">
             <div className='text-2xl'>
-                <h2>{eventProps.organizer}: {eventProps.name}</h2>
+                <h2>{eventProps.organizer && (<>{eventProps.organizer}: </>)}{eventProps.name}</h2>
                 {eventProps.organizerURI && (<Link href={eventProps.organizerURI} className='underline text-sm' target='_blank'>{eventProps.organizerURI}</Link>)}
             </div>
             <div className="flex flex-row flex-wrap">

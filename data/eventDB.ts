@@ -124,7 +124,9 @@ Prizes / Giveaways will be available for Bingo winners.
 RESERVED SEATING INFO:
 We will have a limited amount of reserved seating available, with the rest of the seating as first-come-first-served for walk-ins.
 If you are interested in reserving a seat for Drag Bingo, please note that tables seat 4. If you would like to sit together in a group, please order tickets in groups of 4. We will be filling all reserved seats as reservations come in. Each reserved seat includes one drink of your choice from the taproom.
-Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/modality/pickup/itemDetail/BDUsrPeg_6mtzPI-5RXI/' class='underline' target='_blank'>https://www.falsechordbrewing.com/shop</a>`,
+Reserved Seating Here: <a href='https://commerce.arryved.com/location/BDUsrPeg/modality/pickup/itemDetail/BDUsrPeg_6mtzPI-5RXI/' class='underline' target='_blank'>https://www.falsechordbrewing.com/shop</a>
+
+This event is 21+`,
         startDate: new Date(2025, 5, 7, 18, 30),
         endDate: new Date(2025, 5, 7, 20, 30),
         location: "False Chord Brewing - 326 S Main St",
@@ -338,6 +340,32 @@ Grab a friend and grab your spot. You won’t want to miss this chance to make b
         organizerURI: "https://axe-ventura.com/findlay/",
         eventURI: "https://www.facebook.com/share/p/1DuBaBjbaD/",
         imageURI: "/event/avShirt.png"
+    },
+    {
+        name: "SB 1 Repeal Petition Signature Drive",
+        description: `Help repeal the "Advance Ohio Higher Education Act."
+
+​It bans diversity initiatives at public universities, forbids faculty from striking, and gives politicians control over classroom content. In spite of over 1500 testimonies opposing S.B. 1, Representative Ty Mathews voted for it and Governor DeWine signed it into law.  
+
+But members of the Youngstown State University’s chapter of the Ohio Education Association have begun the process of giving Ohio voters the chance to decide if S.B. 1 should be the law. Nearly 250,000 signatures from around the state are needed to place a referendum on this November ballot. 
+
+Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You can sign the petition at one of these events in downtown Findlay:  
+ - June 6, 5-7PM @ Boogie on the Block - 200 W. Main Cross St 
+ - June 6, 5-7PM @ False Chord Brewing - 326 S. Main St
+ - June 7, Noon-3PM @ Courthouse - 300 S. Main St
+ - June 7, 6:30-8:30PM @ False Chord Brewing - 326 S. Main St
+ - June 8, 9-11AM @ Findlay Brewing Company - 213 E. Crawford St
+ - June 11, 6-8PM @ Riverside Park Bandshell Area - 219 Mcmanness Ave
+ - June 14, 1-2PM @ Courthouse - 300 S. Main St
+ - June 14, 4-6PM @ VetFest on Broadway - Broadway St`,
+        imageAlt: "",
+        startDate: new Date(2025, 5, 6, 17, 0),
+        endDate: new Date(2025, 5, 14, 18, 0),
+        location: "Various Locations in Findlay",
+        eventURI: "https://ohsb1petition.com",
+        imageURI: "/event/hdSB1.png",
+        volunteerURI: "https://docs.google.com/forms/d/e/1FAIpQLSePTgRhX2MyRJ6PjmhAgV4oYcyz7Z0295El5sxfZ04bpjoE4Q/viewform?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR2FzeWFnUkpYOEc2dW9uWAEe7HN0M2rcv7y2JkwPE4Ah-f6fOGMNCqCgsc6QEGQJoG_Hu-v1MkugwqkhdRc_aem_I62manFjZYDwK_zM2v1TNQ",
+        tags: ["Volunteer Opt"]
     },
 ];
 
