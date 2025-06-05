@@ -327,6 +327,21 @@ Grab a friend and grab your spot. You won’t want to miss this chance to make b
         organizerURI: "https://www.hancockhotel.com"
     },
     {
+        name: `"Everyone is Welcome Here" Fundraiser`,
+        description: `Join Axe Ventura in supporting Kaleidoscope Youth Center (KYC) with the purchase of one of their "Everyone is Welcome Here" shirts. A portion of each sale will benefit KYC!
+        
+        From bold designs to badass comfort, this gear is made to impress. Be the envy of your crew and rep the brand that brings the heat.
+📩 DM us now to place your order — or swing by and grab yours before it’s gone! 💥`,
+        imageAlt: "Collection of black and white t-shirts with Ax Ventura logos and the Everyone is Welcome here slogan",
+        startDate: new Date(2025, 5, 1, 0, 0),
+        endDate: new Date(2025, 5, 30, 23, 59),
+        location: "Axe Ventura - 403 S. Main St",
+        organizer: "Axe Ventura",
+        organizerURI: "https://axe-ventura.com/findlay/",
+        eventURI: "https://www.facebook.com/share/p/1DuBaBjbaD/",
+        imageURI: "/event/avShirt.png"
+    },
+    {
         name: "SB 1 Repeal Petition Signature Drive",
         description: `Help repeal the "Advance Ohio Higher Education Act."
 
@@ -351,7 +366,7 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         imageURI: "/event/hdSB1.png",
         volunteerURI: "https://docs.google.com/forms/d/e/1FAIpQLSePTgRhX2MyRJ6PjmhAgV4oYcyz7Z0295El5sxfZ04bpjoE4Q/viewform?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR2FzeWFnUkpYOEc2dW9uWAEe7HN0M2rcv7y2JkwPE4Ah-f6fOGMNCqCgsc6QEGQJoG_Hu-v1MkugwqkhdRc_aem_I62manFjZYDwK_zM2v1TNQ",
         tags: ["Volunteer Opt"]
-    }
+    },
 ];
 
 export default events;
