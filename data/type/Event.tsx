@@ -15,7 +15,8 @@ export type Event = {
 
 export function EventDefaultSort(thingsToSort: Event[]): Event[] {
 
-    const currentDate = new Date();
+    //adjusting for UTC
+    const currentDate = new Date(new Date().getTime() - (1000 * 60 * 60 * 5)) ;
     //const currentDate = new Date(2025, 5, 6, 17, 5);
 
 

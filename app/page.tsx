@@ -5,7 +5,9 @@ import { EventComponent } from "@/component/eventComponent"
 import { Event, EventDefaultSort } from "@/data/type/Event";
 
 function getEventsToDisplay(): Event[] {
-  const currentDate = new Date(); // Set to the current date for testing
+    //adjusting for UTC
+    const currentDate = new Date(new Date().getTime() - (1000 * 60 * 60 * 5)) ;
+    //const currentDate = new Date(2025, 5, 6, 17, 5);
 
   var displayEvents: Event[] = events.filter((event) => {
     return (
