@@ -85,7 +85,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      timezone: America/New_York
     runs-on: ubuntu-latest
     needs: build
     steps:
