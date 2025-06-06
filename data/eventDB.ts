@@ -367,6 +367,17 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         volunteerURI: "https://docs.google.com/forms/d/e/1FAIpQLSePTgRhX2MyRJ6PjmhAgV4oYcyz7Z0295El5sxfZ04bpjoE4Q/viewform?fbclid=IwZXh0bgNhZW0CMTAAYnJpZBExR2FzeWFnUkpYOEc2dW9uWAEe7HN0M2rcv7y2JkwPE4Ah-f6fOGMNCqCgsc6QEGQJoG_Hu-v1MkugwqkhdRc_aem_I62manFjZYDwK_zM2v1TNQ",
         tags: ["Volunteer Opt"]
     },
+    {
+        name: "Drink Discount",
+        description: "Show your Pride this Friday or Saturday and receive 10% off for wearing Pride themed apparel or otherwise visibly showing support for the cause.",
+        imageAlt: "The Bourbon Affair Logo",
+        startDate: new Date(2025, 5, 6, 15, 0),
+        endDate: new Date(2025, 5, 8, 1, 0),
+        location: "The Bourbon Affair - 121 E Crawford St",
+        organizerURI: "https://ourbourbonaffair.com/",
+        organizer: "The Bourbon Affair",
+        imageURI: "/partnerLogo/baLogo.png"
+    },
 ];
 
 export default events;
