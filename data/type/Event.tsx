@@ -15,12 +15,34 @@ export type Event = {
 
 export function EventDefaultSort(thingsToSort: Event[]): Event[] {
 
+    //adjusting for UTC
+    const currentDate = new Date(new Date().getTime() - (1000 * 60 * 60 * 5)) ;
+    //const currentDate = new Date(2025, 5, 6, 17, 5);
+
+
     thingsToSort = thingsToSort.sort((a, b) => {
 
-        if (a.startDate.getTime() === b.startDate.getTime())
+        //both events are actively happening right now
+        if (a.startDate <= currentDate && b.startDate <= currentDate
+            && a.endDate > currentDate && b.endDate >= currentDate
+        )
+        {
+            if (a.startDate.getTime() === b.startDate.getTime())
+            {
+                if (a.endDate.getTime() === b.endDate.getTime())
+                {
+                    return Math.random() - 0.5
+                }
+                return a.endDate > b.endDate ? 1 : -1
+            }
+
+            return a.startDate < b.startDate ? 1 : -1
+        } 
+        //Both events are starting at the same time
+        else if (a.startDate.getTime() === b.startDate.getTime())
         {
             if (a.endDate.getTime() === b.endDate.getTime())
-                return a.name > b.name ? 1 : -1
+                    return Math.random() - 0.5
             else 
                 return a.endDate > b.endDate ? 1 : -1;
         }

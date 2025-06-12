@@ -378,6 +378,24 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         organizer: "The Bourbon Affair",
         imageURI: "/partnerLogo/baLogo.png"
     },
+    {
+        name: "Free Yoga",
+        description: `🌟✨ FREE YOGA June 28 at 9 am at Riverside Park (shelter 1, by the volleyball court). We need community and connection more than ever. So, dust off your rainbows and get your glitter ready to celebrate our community with Pride! 
+
+        Everyone is welcome!! 
+
+        Reach out to @peggysnyderdillon for questions at 419-306-3229
+
+#PRIDE #LOVEisLOVE #hotyogafindlay #youareenough #YOUbelong #Cultivatingease #breath #breathe`,
+        imageURI: "/event/hyfEvent.png",
+        imageAlt: "Event Info",
+        startDate: new Date(2025, 5, 28, 9, 0),
+        endDate: new Date(2025, 5, 28, 10, 0),
+        location: "Riverside Park Shelter 1 near vollyball courte - 219 Mcmanness Ave",
+        organizer: "Hot Yoga Findlay",
+        organizerURI: "https://www.facebook.com/HotYogaFindlay",
+        eventURI: "https://www.facebook.com/share/p/1AZ3stiJTo/"
+    },
 ];
 
 export default events;
