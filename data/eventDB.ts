@@ -368,6 +368,17 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         tags: ["Volunteer Opt"]
     },
     {
+        name: "Drink Discount",
+        description: "Show your Pride this Friday or Saturday and receive 10% off for wearing Pride themed apparel or otherwise visibly showing support for the cause.",
+        imageAlt: "The Bourbon Affair Logo",
+        startDate: new Date(2025, 5, 6, 15, 0),
+        endDate: new Date(2025, 5, 8, 1, 0),
+        location: "The Bourbon Affair - 121 E Crawford St",
+        organizerURI: "https://ourbourbonaffair.com/",
+        organizer: "The Bourbon Affair",
+        imageURI: "/partnerLogo/baLogo.png"
+    },
+    {
         name: "Free Yoga",
         description: `🌟✨ FREE YOGA June 28 at 9 am at Riverside Park (shelter 1, by the volleyball court). We need community and connection more than ever. So, dust off your rainbows and get your glitter ready to celebrate our community with Pride! 
 
