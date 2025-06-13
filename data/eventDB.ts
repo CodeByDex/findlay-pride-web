@@ -396,6 +396,29 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         organizerURI: "https://www.facebook.com/HotYogaFindlay",
         eventURI: "https://www.facebook.com/share/p/1AZ3stiJTo/"
     },
+    {
+        name: "🏳️‍🌈Taste the Rainbow🏳️‍🌈",
+        description: "Stop by Main Street Deli and Arcade for a special Pride month drink available all month long! Happy Pride ❤️🧡💛💚🩵💙💜🩷",
+        imageURI: "/event/msdDrink.png",
+        imageAlt: "Drink in a Main Street Deli and Arcade glass with blue, yellow and red layers",
+        startDate: new Date(2025, 5, 1, 0, 0),
+        endDate: new Date(2025, 5, 30, 23, 59),
+        location: "Main Street Deli and Arcade - 513 S. Main St",
+        organizer: "Main Street Deli and Arcade",
+        organizerURI: "https://www.facebook.com/msdarcade",
+        eventURI: "https://www.facebook.com/share/p/1F4ZCux3a1/"
+    },
+    {
+        name: "🏳️‍🌈LGBT on a Rainbo Bagel🏳️‍🌈",
+        description: "Enjoy a LGBT (lettuce, Guacamole, bacon and tomato) on a rainbow bagel!",
+        imageURI: "/event/msdDrink.png",
+        imageAlt: "Drink in a Main Street Deli and Arcade glass with blue, yellow and red layers",
+        startDate: new Date(2025, 5, 28, 10, 0),
+        endDate: new Date(2025, 5, 28, 23, 59),
+        location: "Main Street Deli and Arcade - 513 S. Main St",
+        organizer: "Main Street Deli and Arcade",
+        organizerURI: "https://www.facebook.com/msdarcade"
+    }
 ];
 
 export default events;
