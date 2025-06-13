@@ -430,6 +430,17 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         organizer: "The Neon Heater",
         organizerURI: "https://www.theneonheater.com/"
     },
+    {
+        name: "Pride Lemonade",
+        description: "Enjoy a fruity Pride Lemonade special all June!",
+        imageURI: "/event/ccLemonade.png",
+        imageAlt: "Lemonade with a rainbow themed cup and straw",
+        startDate: new Date(2025, 5, 1, 0, 0),
+        endDate: new Date(2025, 5, 30, 23, 59),
+        location: "Call of the Canyon - 124 E. Sandusky St",
+        organizer: "Call of the Canyon",
+        organizerURI: "https://www.facebook.com/profile.php?id=61568741859227"
+    },
 ];
 
 export default events;
