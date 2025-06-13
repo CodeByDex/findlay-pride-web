@@ -418,7 +418,18 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         location: "Main Street Deli and Arcade - 513 S. Main St",
         organizer: "Main Street Deli and Arcade",
         organizerURI: "https://www.facebook.com/msdarcade"
-    }
+    },
+    {
+        name: "Feels Like an Eternity - Art Exhibit",
+        description: `Feels Like an Eternity examines the relationship between eternity and queer utopia, two imagined spaces built around longing and always just out of reach. By reimagining religious stories and symbols and layering them with imagery sourced from gay porn magazines, I aim to reclaim eternity as a radical space where sex and connection become the gateway to our salvation. In this way, queer eternity feels closest in those fleeting moments where desire and touch are fully realized and longing is fulfilled. Thus, our connections are no longer something that separates us from the sacred but rather brings us closer to it.`,
+        imageURI: "/event/nhEvent.png",
+        imageAlt: "Photo collage depicting three faces organized in triangle with arrows of various forms coming out of the months of the faces",
+        startDate: new Date(2025, 5, 27, 17, 0),
+        endDate: new Date(2025, 5, 27, 19, 0),
+        location: "The Jones Building Room 22 - 400 1/2 S. Main St",
+        organizer: "The Neon Heater",
+        organizerURI: "https://www.theneonheater.com/"
+    },
 ];
 
 export default events;
