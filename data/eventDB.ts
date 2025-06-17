@@ -441,6 +441,31 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         organizer: "Call of the Canyon",
         organizerURI: "https://www.facebook.com/profile.php?id=61568741859227"
     },
+    {
+        name: "Pop Up Pride Fundraiser",
+        description: `Hello Beautiful Souls! 💜
+
+The Lavender Hour will host a pop up Pride Fundraiser this weekend in honor of <a href='https://www.facebook.com/lgbtqSpectrumofFindlay' class='underline' target='_blank'>Lgbtq+ Spectrum of Findlay</a> and its of service in 
+Findlay! 🌈
+
+Join us this Saturday for a day of celebrating LOVE 💗 
+
+Josh Haudenschield of <a href='https://www.facebook.com/oakandwillowhealing' class='underline' target='_blank'>Oak & Willow Healing</a> will offer card readings with all abundance going to support <a href='https://www.facebook.com/KYCOhio' class='underline' target='_blank'>Kaleidoscope Youth Center</a>! Walk-ins welcomed. 🙏
+
+<a href='https://www.facebook.com/ERIESJEWELRY' class='underline' target='_blank'>eries jewelry</a> will provide Live Customs with a portion of abundance going to Kaleidoscope! 💎
+
+Angie will bring kitties in need of a home for a meet and greet! 🐈
+
+Plus, we will have Pride Bundles and an epic door prize! 🌈`,
+        imageURI: "/event/lhEvent.png",
+        imageAlt: "Hands in the shapre of a heart cast in a rainbow light",
+        startDate: new Date(2025, 5, 21, 11, 0),
+        endDate: new Date(2025, 5, 21, 17, 0),
+        location: "The Lavendar Hour - 113 E. Crawford St",
+        organizer: "The Lavender Hour",
+        organizerURI: "https://www.facebook.com/TheLavenderHour",
+        eventURI: "https://www.facebook.com/share/p/16b4ckCR1z/"
+    }
 ];
 
 export default events;
