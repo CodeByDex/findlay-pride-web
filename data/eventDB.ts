@@ -442,6 +442,35 @@ Here in Hancock County, 1,639 voters need to sign this petition by June 15.  You
         organizerURI: "https://www.facebook.com/profile.php?id=61568741859227"
     },
     {
+        name: "Pride Portrait Special",
+        description: `🌈 Pride Portrait Special – $125 🌈
+
+This Pride season, I’m celebrating YOU—with a portrait experience rooted in visibility, joy, and authenticity. 🏳️‍🌈🏳️‍⚧️
+✨ $125 Pride Portrait Special includes:
+📸 5-7 hand-edited digital photos
+💖 $25 from every session will be donated to Kaleidoscope Youth Center to support LGBTQ+ youth in our community
+
+These sessions are open to everyone—queer, trans, questioning, allies, chosen families, couples, drag artists, solo icons, and anyone who wants to feel seen and celebrated.
+
+You don’t have to identify as LGBTQ+ to take advantage of this offer—anyone is welcome. Come as you are—loud, proud, soft, bold, colorful, quiet, or anything in between.
+
+This is about more than a photo—it’s about honoring your truth, capturing your light, and supporting something bigger than all of us. 🌟
+
+📍Sessions take place in Findlay, OH
+
+📩 DM me to book your spot or ask questions—limited availability through the end of Pride month!
+
+Let’s make something powerful together—and give back while we’re at it. 💫`,
+        imageURI: "/event/nbSpecial.png",
+        imageAlt: "text describing the event in a rainbow border",
+        startDate: new Date(2025, 5, 1, 0, 0),
+        endDate: new Date(2025, 5, 30, 23, 59),
+        location: "Findlay, OH",
+        organizer: "New Breath Photography",
+        organizerURI: "https://www.facebook.com/NewBreathPhotography",
+        eventURI: "https://www.facebook.com/share/p/18zLFHApA5/"
+    },
+    {
         name: "Pop Up Pride Fundraiser",
         description: `Hello Beautiful Souls! 💜
 
