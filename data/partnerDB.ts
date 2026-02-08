@@ -26,6 +26,18 @@ const partners: Partner[] = [
         },
         highlight: true
     },
+    {
+        name: "United University of Findlay",
+        imageURI: "/partnerLogo/unitedLogo.png",
+        imageAlt: "Interwoven rainbow colored lines surronding the text 'United The University of Findlay GSA'",
+        socials: {
+            facebook: "https://www.facebook.com/UnitedUF",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    }
 ]
 
 export default partners;
