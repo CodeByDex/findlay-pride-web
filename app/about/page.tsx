@@ -14,7 +14,7 @@ export default function Home() {
         <main className="justify-items-center sm:max-w-5/6 md:max-w-3/4 gap-16  font-[family-name:var(--font-geist-sans)]">
             <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
                 <h2 className="text-lg text-center min-w-full">Who We Are</h2>
-                <div>This site is a volunteer effort by Findlay Citizens in collaboration with LGBTQ+ Spectrum of Findlay.
+                <div>This site is a volunteer effort by Findlay Citizens.
                     We welcome collaboration with any groups inspired by fostering community connections. </div>
                 <h2 className="text-lg text-center min-w-full">Partners & Participating Organizations</h2>
                 <div className="grid md:grid-cols-3 min-w-full gap-5">
