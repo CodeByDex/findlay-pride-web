@@ -23,7 +23,7 @@ const events: Event[] = [
     
     This is the University of Findlay's GSA, United's 13th Annual Drag Show! A portion of the evening's proceeds will be benefit the Ohio Equal Rights Movement. 
 
-    Tickes are $5 for community members, $1 for non-UF University students and free for UF students who present their student ID at the door.
+    Tickets are $5 for community members, $1 for non-UF University students and free for UF students who present their student ID at the door.
     `,
         startDate: new Date(2026, 2, 13, 19, 0),
         endDate: new Date(2026, 2, 29, 22, 0),
