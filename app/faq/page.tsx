@@ -23,6 +23,10 @@ export default function Home() {
                         This website is 100% volunteer managed. </div>
                 </div>
                 <div>
+                    <div className='question'>Why are you doing this?</div>
+                    <div className='response'>Our mission is to take Pride in Findlay back to the basics of bringing the community together to build relationships and create visibility to the welcoming spirit that exists in Findlay, Ohio for everyone that calls Findlay home. </div>
+                </div>
+                <div>
                     <div className='question'>Who are you?</div>
                     <div className='response'>We are a group of Findlay citizens interested in making Findlay a better community for everyone!.</div>
                 </div>
@@ -39,6 +43,10 @@ export default function Home() {
                             <li>Information on if/how you plan promote so we can coordinate with you</li>
                         </ul>
                     </div>
+                </div>
+                <div>
+                    <div className='question'>Is Findlay Pride accepting financial donations?</div>
+                    <div className='response'>Findlay Pride is a grassroots community initiative and is not a 501(c)(3) organization; therefore, we do not accept donations. If you would like to provide support to the LGBTQ+ community, we encourage you to donate to established organizations such as Equitas Health or The Buckeye Flame. For those interested in supporting local youth, please consider directing contributions to the Findlay High School GSA or The Loft (Focus Recovery and Wellness Community).</div>
                 </div>
             </div>
         </main>
