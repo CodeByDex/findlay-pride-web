@@ -15,7 +15,20 @@ const partners: Partner[] = [
     //     highlight: false
     // },
     {
-        name: "Findlay Pride Potluck",
+        name: "Journey at Christ Church",
+        imageURI: "/partnerLogo/jccLogo.png",
+        imageAlt: "Stylized text with the words Journey at Christ Church a safe space for all",
+        organizerURI: "https://www.ourjourneycommunity.org/",
+        socials: {
+            facebook: "https://www.facebook.com/profile.php?id=100094776095424",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Findlay Pride",
         imageURI: "/partnerLogo/fppLogo.svg",
         imageAlt: "Findlay Pride Potluck Logo",
         socials: {
