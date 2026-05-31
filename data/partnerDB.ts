@@ -25,7 +25,7 @@ const partners: Partner[] = [
             linkedIn: undefined,
             instagram: undefined
         },
-        highlight: false
+        highlight: true
     },
     {
         name: "City Apperal+Merch",
@@ -64,7 +64,7 @@ const partners: Partner[] = [
             linkedIn: undefined,
             instagram: undefined
         },
-        highlight: false
+        highlight: true
     },
     {
         name: "Equitas Health",
@@ -103,7 +103,7 @@ const partners: Partner[] = [
             linkedIn: undefined,
             instagram: undefined
         },
-        highlight: false
+        highlight: true
     },
     {
         name: "Findlay Art League",
@@ -116,7 +116,7 @@ const partners: Partner[] = [
             linkedIn: undefined,
             instagram: "https://www.instagram.com/FindlayArtleague419"
         },
-        highlight: false
+        highlight: true
     },
     {
         name: "Travelling Tastes Foundation",
@@ -129,7 +129,7 @@ const partners: Partner[] = [
             linkedIn: undefined,
             instagram: undefined
         },
-        highlight: false
+        highlight: true
     },
     {
         name: "New Breath Photography",
@@ -194,7 +194,7 @@ const partners: Partner[] = [
             linkedIn: undefined,
             instagram: undefined
         },
-        highlight: false
+        highlight: true
     },
     {
         name: "Findlay Pride",
@@ -309,7 +309,7 @@ const partners: Partner[] = [
             linkedIn: undefined,
             instagram: undefined
         },
-        highlight: false
+        highlight: true
     },
     {
         name: "False Chord Brewing",
