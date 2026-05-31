@@ -80,16 +80,14 @@ Open to any youth ages 10-17 impacted by oppression, adversity, or trauma.
     },
    {
         name: "Vinyl Night",
-        description: `Join us from 7-9PM, for cocktails, good company, and the perfect soundtrack to your night. HawkBeat will be spinning anthems and jams by queer icons on the patio. 
-
-`,
+        description: `Join us from 7-9PM, for cocktails, good company, and the perfect soundtrack to your night. HawkBeat will be spinning anthems and jams by queer icons and <a href="https://www.facebook.com/hysteriacobyambz" class='underline' target='_blank'>Hysteria Co.</a> will be creating screenprints live on the patio. `,
         startDate: new Date(2026, 5, 25, 19, 0),
         endDate: new Date(2026, 5, 25, 21, 0),
         location: "The Bourbon Affair - 121 E Crawford St, Findlay, OH 45840",
         organizer: "Hawk Beat",
         organizerURI: "https://www.facebook.com/profile.php?id=61574639848750",
         eventURI: "https://www.facebook.com/share/1BG1ijko7n/",
-        imageURI: "/partnerLogo/hbLogo.png",
+        imageURI: "/partnerLogo/hbLogo2.png",
         imageAlt: "Hawkbeat Logo stylized with rainbow feathers",
         tags: [],
         //volunteerURI: "https://some.url/volunteer"
