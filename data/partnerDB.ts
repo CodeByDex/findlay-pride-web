@@ -15,10 +15,179 @@ const partners: Partner[] = [
     //     highlight: false
     // },
     {
+        name: "Michaels",
+        imageURI: "/partnerLogo/mLogo.png",
+        imageAlt: "Michaels Logo",
+        organizerURI: "https://locations.michaels.com/oh/findlay/5506",
+        socials: {
+            facebook: "https://www.facebook.com/p/Makers-Corner-61568576035744/",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: "https://www.instagram.com/reading_grounds"
+        },
+        highlight: false
+    },
+    {
+        name: "City Apperal+Merch",
+        imageURI: "/partnerLogo/camLogo.jpg",
+        imageAlt: "City Apperal+Merch Logo",
+        organizerURI: "https://cityapparel.net",
+        socials: {
+            facebook: "https://www.facebook.com/CityApparel",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Flag City Sluggers",
+        imageURI: "/partnerLogo/fcsLogo.jpg",
+        imageAlt: "Flag City Sluggers Logo",
+        organizerURI: "https://www.flagcitysluggers.com",
+        socials: {
+            facebook: "https://www.facebook.com/FlagCitySluggers",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: "https://www.instagram.com/FlagCitySluggers"
+        },
+        highlight: false
+    },
+    {
+        name: "Visit Findlay",
+        imageURI: "/partnerLogo/vfLogo.webp",
+        imageAlt: "Visit Findlay Logo",
+        organizerURI: "https://visitfindlay.com",
+        socials: {
+            facebook: "https://www.facebook.com/VisitFindlay",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Equitas Health",
+        imageURI: "/partnerLogo/ehLogo.jpg",
+        imageAlt: "Equitas Health Logo",
+        organizerURI: "https://equitashealth.com",
+        socials: {
+            facebook: "https://www.facebook.com/EquitasHealth",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "The Buckeye Flame",
+        imageURI: "/partnerLogo/tbfLogo.jpg",
+        imageAlt: "The Buckeye Flame Logo",
+        organizerURI: "https://thebuckeyeflame.com",
+        socials: {
+            facebook: "https://www.facebook.com/TheBuckeyeFlame",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: "https://www.instagram.com/TheBuckeyeFlame"
+        },
+        highlight: false
+    },
+    {
+        name: "Focus: Recovery and Wellness Community ",
+        imageURI: "/partnerLogo/fLogo.jpg",
+        imageAlt: "FOCUS logo",
+        organizerURI: "https://focusrwc.org",
+        socials: {
+            facebook: "https://www.facebook.com/focusrwc",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Findlay Art League",
+        imageURI: "/partnerLogo/falLogo.png",
+        imageAlt: "Findlay Art League Logo",
+        organizerURI: "https://www.findlayartleague.org",
+        socials: {
+            facebook: "https://www.facebook.com/findlayartleague.org",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: "https://www.instagram.com/FindlayArtleague419"
+        },
+        highlight: false
+    },
+    {
+        name: "Travelling Tastes Foundation",
+        imageURI: "/partnerLogo/ttfLogo.png",
+        imageAlt: "Travelling Tastes Foundation Logo",
+        //organizerURI: "",
+        socials: {
+            facebook: "https://www.facebook.com/profile.php?id=61570409071425",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "New Breath Photography",
+        imageURI: "/partnerLogo/nbpLogo.png",
+        imageAlt: "New Breath Photography Logo",
+        organizerURI: "https://new-breath-photography.mypixieset.com",
+        socials: {
+            facebook: "https://www.facebook.com/NewBreathPhotography",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "The Lifting Lab",
+        imageURI: "/partnerLogo/tllLogo.jpg",
+        imageAlt: "The Lifting Lab Logo",
+        organizerURI: "https://theliftinglab.net",
+        socials: {
+            facebook: "https://www.facebook.com/theliftinglabfindlay",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: "https://www.instagram.com/the.lifting.lab"
+        },
+        highlight: false
+    },
+    {
+        name: "LBE Vintage",
+        imageURI: "/partnerLogo/lbeLogo.jpg",
+        imageAlt: "LBE Vintage Logo",
+        organizerURI: "https://lbevintage.com",
+        socials: {
+            facebook: "https://www.facebook.com/lbevintage",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Hawkbeat",
+        imageURI: "/partnerLogo/hbLogo2.png",
+        imageAlt: "hawkbeat logo with rainbow feathers",
+        //organizerURI: "",
+        socials: {
+            facebook: "https://www.facebook.com/profile.php?id=61574639848750",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
         name: "Journey at Christ Church",
         imageURI: "/partnerLogo/jccLogo.png",
         imageAlt: "Stylized text with the words Journey at Christ Church a safe space for all",
-        organizerURI: "https://www.ourjourneycommunity.org/",
+        organizerURI: "https://www.ourjourneycommunity.org",
         socials: {
             facebook: "https://www.facebook.com/profile.php?id=100094776095424",
             bluesky: undefined,
@@ -55,9 +224,9 @@ const partners: Partner[] = [
         name: "Kaleidoscope Youth Center",
         imageURI: "/partnerLogo/kycLogo.png",
         imageAlt: "Kaleidoscope Youth Center Logo",
-        organizerURI: "https://kycohio.org/",
+        organizerURI: "https://kycohio.org",
         socials: {
-            facebook: "https://facebook.com/KYCOhio/",
+            facebook: "https://facebook.com/KYCOhio",
             bluesky: undefined,
             linkedIn: undefined,
             instagram: undefined
@@ -68,7 +237,7 @@ const partners: Partner[] = [
         name: "Coffee Amici",
         imageURI: "/partnerLogo/CALogo.png",
         imageAlt: "Coffee Amici Logo",
-        organizerURI: "https://coffeeamici.com/",
+        organizerURI: "https://coffeeamici.com",
         socials: {
             facebook: "https://facebook.com/coffeeamici",
             bluesky: undefined,
@@ -99,7 +268,7 @@ const partners: Partner[] = [
             facebook: "https://facebook.com/jonnyburritos",
             bluesky: undefined,
             linkedIn: undefined,
-            instagram: undefined
+            instagram: "https://www.instagram.com/jonnyburritos"
         },
         highlight: false
     },
@@ -156,7 +325,7 @@ const partners: Partner[] = [
         name: "Reading Grounds",
         imageURI: "/partnerLogo/rgLogo.png",
         imageAlt: "Reading Grounds Logo",
-        organizerURI: "https://readinggroundsohio.com/",
+        organizerURI: "https://readinggroundsohio.com",
         socials: {
             facebook: "https://www.facebook.com/profile.php?id=61559814922888",
             bluesky: undefined,
