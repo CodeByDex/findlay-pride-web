@@ -23,7 +23,7 @@ const partners: Partner[] = [
             facebook: "https://www.facebook.com/p/Makers-Corner-61568576035744/",
             bluesky: undefined,
             linkedIn: undefined,
-            instagram: "https://www.instagram.com/reading_grounds"
+            instagram: undefined
         },
         highlight: false
     },
@@ -330,7 +330,7 @@ const partners: Partner[] = [
             facebook: "https://www.facebook.com/profile.php?id=61559814922888",
             bluesky: undefined,
             linkedIn: undefined,
-            instagram: undefined
+            instagram: "https://www.instagram.com/reading_grounds"
         },
         highlight: false
     },

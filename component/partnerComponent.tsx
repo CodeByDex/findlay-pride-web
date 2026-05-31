@@ -4,7 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 import fbLogo from "@public/icons8-facebook.svg";
-import bsLogo from "@public/icons8-bluesky.svg"
+import bsLogo from "@public/icons8-bluesky.svg";
+import igLogo from "@public/instagram.svg";
+import liLogo from "@public/linkedin.png";
 
 export function PartnerComponent({ partnerProps }: { partnerProps: Partner }) {
     return (
@@ -27,6 +29,18 @@ export function PartnerComponent({ partnerProps }: { partnerProps: Partner }) {
                 <div className="">
                     <Link href={partnerProps.socials.bluesky} target="_blank">
                         <Image src={bsLogo} alt="bluesky" width={30} height={30} className="rounded-full" />
+                    </Link>
+                </div>)}
+                {partnerProps.socials.instagram && (
+                <div className="">
+                    <Link href={partnerProps.socials.instagram} target="_blank">
+                        <Image src={igLogo} alt="instagram" width={30} height={30} className="rounded-full" />
+                    </Link>
+                </div>)}
+                {partnerProps.socials.linkedIn && (
+                <div className="">
+                    <Link href={partnerProps.socials.linkedIn} target="_blank">
+                        <Image src={liLogo} alt="LinkedIn" width={30} height={30} className="rounded-full" />
                     </Link>
                 </div>)}
             </div>
