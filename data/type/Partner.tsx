@@ -17,10 +17,16 @@ export type Partner = {
 export function PartnerDefaultSort(partsToSort: Partner[]): Partner[] {
 
     partsToSort = partsToSort.sort((a, b) => {
+        if (a.name === "Findlay Pride")
+            return -1;
+        
+        if (b.name === "Findlay Pride")
+            return 1;
+
         if (a.highlight && !b.highlight)
             return -1;
         
-        if (b.highlight)
+        if (b.highlight && !a.highlight)
             return 1;
 
         return a.name > b.name ? 1 : -1;
