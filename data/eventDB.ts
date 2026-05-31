@@ -58,9 +58,9 @@ community. Special discounts will be available for one night only!
         organizerURI: "https://FindlayPride.com",
         //eventURI: "https://some.url/event",
         imageURI: "/event/Mixer.png",
-        imageAlt: "Pride Flag style letter F",
-        tags: [],
-        volunteerURI: "https://some.url/volunteer"
+        imageAlt: "People enjoying the Mancy's patio",
+        tags: ["Giving Back", "Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054DA5AA2EA7FAC25-64167654-community#/"
     },
    {
         name: "Youth Pride Craft Fair",
@@ -74,8 +74,8 @@ Open to any youth ages 10-17 impacted by oppression, adversity, or trauma.
         organizerURI: "https://focusrwc.org/the-loft/",
         //eventURI: "https://some.url/event",
         imageURI: "/event/tlCraft.png",
-        imageAlt: "Rainbow Flag style letter F",
-        tags: [],
+        imageAlt: "Colorful background and letters spelling out Youth Pride Craft Fair with the FOCUS and Loft logos",
+        tags: ["Free to Attend"],
         //volunteerURI: "https://some.url/volunteer"
     },
    {
@@ -90,7 +90,7 @@ Open to any youth ages 10-17 impacted by oppression, adversity, or trauma.
         organizerURI: "https://www.facebook.com/profile.php?id=61574639848750",
         eventURI: "https://www.facebook.com/share/1BG1ijko7n/",
         imageURI: "/partnerLogo/hbLogo.png",
-        imageAlt: "Rainbow Flag style letter F",
+        imageAlt: "Hawkbeat Logo stylized with rainbow feathers",
         tags: [],
         //volunteerURI: "https://some.url/volunteer"
     },
@@ -106,7 +106,7 @@ Open to any youth ages 10-17 impacted by oppression, adversity, or trauma.
         eventURI: "https://www.facebook.com/share/1E6AMFtRYf/",
         imageURI: "/event/fbcAllEvents.jpg",
         imageAlt: "Collage of images related to Findlay Brewing Company Pride Events",
-        tags: [],
+        tags: ["Registration Required"],
        // volunteerURI: "https://some.url/volunteer"
     },
    {
@@ -125,7 +125,7 @@ All materials provided`,
         eventURI: "https://www.findlayartleague.org/store/classes/p/june-tie-dye-colors-of-pride",
         imageURI: "/event/tiedye.webp",
         imageAlt: "tie dye design",
-        tags: ["Family Friendly", "Giving Back"],
+        tags: ["Family Friendly", "Giving Back", "Registration Required"],
         //volunteerURI: "https://some.url/volunteer"
     },
    {
@@ -148,8 +148,8 @@ The Loft is a local non-profit organization that offers support for youth (10-17
         eventURI: "https://www.facebook.com/share/1Bo835YraV/",
         imageURI: "/event/fcBingo.jpg",
         imageAlt: "Color background with an image of drag performer Stevie Pheonix",
-        tags: [],
-        //volunteerURI: "https://some.url/volunteer"
+        tags: ["Giving Back", "Registration Required", "Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054DA5AA2EA7FAC25-64167654-community#/"
     },
    {
         name: "Yoga in the Park",
@@ -166,7 +166,7 @@ This is a free event, no registration required.
         eventURI: "https://www.facebook.com/share/1CtQD48JBU/",
         imageURI: "/event/hfyYoga.jpg",
         imageAlt: "Grassy background with the image of a person doing yoga",
-        tags: ["Family Friendly"],
+        tags: ["Family Friendly", "Free to Attend"],
         //volunteerURI: "https://some.url/volunteer"
     },
    {
@@ -185,7 +185,7 @@ This is a free event, no registration required.
         eventURI: "https://www.facebook.com/share/1Ki69VQenW/",
         imageURI: "/event/fbPrideRide.jpg",
         imageAlt: "Green Background with the text Pride Ride 2026 Further Bikes June 10 on it",
-        tags: ["Family Friendly"],
+        tags: ["Family Friendly", "Free to Attend"],
         //volunteerURI: "https://some.url/volunteer"
     },
    {
@@ -218,8 +218,8 @@ This is a sober event; please refrain from any substance (alcohol, nicotine, mar
         eventURI: "https://www.facebook.com/share/18xrCCCxW6/",
         imageURI: "/event/fpPotluck.jpg",
         imageAlt: "purble background with white grid and the text Findlay Pride Potluck June 6 2026",
-        tags: ["Family Friendly", "Sober Event"],
-        //volunteerURI: "https://some.url/volunteer"
+        tags: ["Family Friendly", "Sober Event", "Free to Attend", "Volunteer Opt"],
+        volunteerURI: "https://www.signupgenius.com/go/10C054DA5AA2EA7FAC25-64167654-community#/"
     },
 {
     name: "Magestik's Nightmare on Main Street - United's 13th Annual Drag Show",
