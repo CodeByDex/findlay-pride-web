@@ -19,30 +19,61 @@ const events: Event[] = [
 //         volunteerURI: "https://some.url/volunteer"
 //     },
    {
-        name: "Pride Mixer",
-        description: `Colour Your Monday Fabulous...Keep the Sparkle Going!
+        name: "Pride Spin Class",
+        description: ``,
+        startDate: new Date(2026, 5, 22, 18, 0),
+        endDate: new Date(2026, 5, 22, 19, 0),
+        location: "The Lifting Lab - 1219 W Main Cross St Suite 104, Findlay, OH 45840",
+        organizer: "The Lifting Lab",
+        organizerURI: "https://www.facebook.com/theliftinglabfindlay",
+        //eventURI: "https://some.url/event",
+        imageURI: "/PrideF.png",
+        imageAlt: "Pride Flag style letter F",
+        tags: [],
+        //volunteerURI: "https://some.url/volunteer"
+    },
+   {
+        name: "Come As You Are: A Pride Shopping Night",
+        description: `LBE Vintage invites you to come as you are and enjoy a night of shopping, snacks, and
+community. Special discounts will be available for one night only!
 `,
+        startDate: new Date(2026, 5, 12, 18, 0),
+        endDate: new Date(2026, 5, 12, 21, 0),
+        location: "LBE Vintage - 221 Broadway St., Findlay, OH 45840",
+        organizer: "LBE Vintage",
+        organizerURI: "https://www.facebook.com/lbevintage",
+        //eventURI: "https://some.url/event",
+        imageURI: "/PrideF.png",
+        imageAlt: "Pride Flag style letter F",
+        tags: [],
+        //volunteerURI: "https://some.url/volunteer"
+    },
+   {
+        name: "Pride Mixer",
+        description: `Come and celebrate your Pride and your community in style. Appetizers provided with a cash bar available for mocktails and alcoholic beverages.`,
         startDate: new Date(2026, 5, 29, 17, 30),
         endDate: new Date(2026, 5, 29, 20, 30),
         location: "Mancy's/Hancock Hotel - 631 S Main St, Findlay, OH 45840",
         organizer: "Findlay Pride",
         organizerURI: "https://FindlayPride.com",
         //eventURI: "https://some.url/event",
-        imageURI: "/PrideF.png",
+        imageURI: "/event/Mixer.png",
         imageAlt: "Pride Flag style letter F",
         tags: [],
         volunteerURI: "https://some.url/volunteer"
     },
    {
         name: "Youth Pride Craft Fair",
-        description: ``,
+        description: `Crafts provided will be bead bracelet making, design your own flag, and pin making
+Open to any youth ages 10-17 impacted by oppression, adversity, or trauma.
+`,
         startDate: new Date(2026, 5, 26, 16, 0),
         endDate: new Date(2026, 5, 26, 20, 0),
         location: "The Loft - 1908 N Main St, Findlay, OH 45840",
         organizer: "FOCUS",
         organizerURI: "https://focusrwc.org/the-loft/",
         //eventURI: "https://some.url/event",
-        imageURI: "/PrideF.png",
+        imageURI: "/event/tlCraft.png",
         imageAlt: "Rainbow Flag style letter F",
         tags: [],
         //volunteerURI: "https://some.url/volunteer"
@@ -57,8 +88,8 @@ const events: Event[] = [
         location: "The Bourbon Affair - 121 E Crawford St, Findlay, OH 45840",
         organizer: "Hawk Beat",
         organizerURI: "https://www.facebook.com/profile.php?id=61574639848750",
-        //eventURI: "https://some.url/event",
-        imageURI: "/PrideF.png",
+        eventURI: "https://www.facebook.com/share/1BG1ijko7n/",
+        imageURI: "/partnerLogo/hbLogo.png",
         imageAlt: "Rainbow Flag style letter F",
         tags: [],
         //volunteerURI: "https://some.url/volunteer"
@@ -72,7 +103,7 @@ const events: Event[] = [
         location: "Findlay Brewing Company - 213 E Crawford St, Findlay, OH 45840",
         organizer: "Findlay Brewing Company",
         organizerURI: "http://findlaybrewing.com/",
-        //eventURI: "https://some.url/event",
+        eventURI: "https://www.facebook.com/share/1E6AMFtRYf/",
         imageURI: "/event/fbcAllEvents.jpg",
         imageAlt: "Collage of images related to Findlay Brewing Company Pride Events",
         tags: [],
@@ -99,15 +130,24 @@ All materials provided`,
     },
    {
         name: "Drag Bingo",
-        description: ``,
+        description: `Join us in the False Chord taproom for Drag Bingo on Sunday, June 14, from 5-8 p.m. (doors are at 4 p.m.). This event is co-sponsored by Findlay Pride. We will be accepting cash donations for The Loft at the event.
+Prizes / Giveaways will be available for Bingo winners.
+This event is 21+
+RESERVED SEATING INFO
+We will have a limited amount of reserved seating available, with the rest of the seating as first-come, first-served for walk-ins.
+If you are interested in reserving a seat for Drag Bingo, please note that tables seat 4. If you would like to sit together in a group, please reserve tickets in a single order. We will be filling all seats as reservations come in. Proceeds from ticket sales will be donated to The Loft.
+Reserved Seating Here: <a href="https://www.falsechordbrewing.com/shop" class='underline' target='_blank'>https://www.falsechordbrewing.com/shop</a>
+
+The Loft is a local non-profit organization that offers support for youth (10-17) affected by oppression, adversity, or trauma and provides a safe space where they can connect with others from diverse backgrounds or similar life experiences.
+`,
         startDate: new Date(2026, 5, 14, 17, 0),
         endDate: new Date(2026, 5, 14, 20, 0),
         location: "False Chord Brewing - 326 S Main St, Findlay, OH 45840",
         organizer: "False Chord Brewing",
         organizerURI: "https://www.falsechordbrewing.com/",
-        //eventURI: "https://some.url/event",
-        imageURI: "/PrideF.png",
-        imageAlt: "Rainbow Flag style letter F",
+        eventURI: "https://www.facebook.com/share/1Bo835YraV/",
+        imageURI: "/event/fcBingo.jpg",
+        imageAlt: "Color background with an image of drag performer Stevie Pheonix",
         tags: [],
         //volunteerURI: "https://some.url/volunteer"
     },
@@ -123,9 +163,9 @@ This is a free event, no registration required.
         location: "Riverside Park - 231 McManness Ave, Findlay, OH 45840",
         organizer: "Hot Yoga Findlay",
         organizerURI: "https://hotyogafindlay.com/",
-        //eventURI: "https://some.url/event",
-        imageURI: "/PrideF.png",
-        imageAlt: "Rainbow Flag style letter F",
+        eventURI: "https://www.facebook.com/share/1CtQD48JBU/",
+        imageURI: "/event/hfyYoga.jpg",
+        imageAlt: "Grassy background with the image of a person doing yoga",
         tags: ["Family Friendly"],
         //volunteerURI: "https://some.url/volunteer"
     },
@@ -157,9 +197,9 @@ This is a free event, no registration required.
         location: "Findlay Brewing Company - 213 E Crawford St, Findlay, OH 45840",
         organizer: "Findlay Brewing Company",
         organizerURI: "http://findlaybrewing.com/",
-        //eventURI: "https://some.url/event",
-        imageURI: "/event/fbcAllEvents.jpg",
-        imageAlt: "Collage of images related to Findlay Brewing Company Pride Events",
+        eventURI: "https://www.facebook.com/share/1CXvamhR2i/",
+        imageURI: "/event/fbcAfterparty.jpg",
+        imageAlt: "DJ Banditz heading with a cat operating a turn table with the text Pride After Party Saturday June 6",
         tags: [],
        // volunteerURI: "https://some.url/volunteer"
     },
