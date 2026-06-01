@@ -15,6 +15,58 @@ const partners: Partner[] = [
     //     highlight: false
     // },
     {
+        name: "Hysteria Co.",
+        imageURI: "/partnerLogo/hcLogo.jpg",
+        imageAlt: "Hysteria Co. Logo",
+        organizerURI: "https://www.hysteria.company",
+        socials: {
+            facebook: "https://www.facebook.com/hysteriacobyambz",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: "https://www.instagram.com/hysteriacompany"
+        },
+        highlight: false
+    },
+    {
+        name: "The Bourbon Affair",
+        imageURI: "/partnerLogo/baLogo.png",
+        imageAlt: "The Bourbon Affair Logo",
+        organizerURI: "https://ourbourbonaffair.com",
+        socials: {
+            facebook: "https://www.facebook.com/TheBourbonAffair",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Findlay Brewing Co.",
+        imageURI: "/partnerLogo/fbcLogo.jpg",
+        imageAlt: "Findlay Brewing Co. Logo",
+        organizerURI: "https://findlaybrewing.com",
+        socials: {
+            facebook: "https://www.facebook.com/FindlayBrewing",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "First Presbyterian Church",
+        imageURI: "/partnerLogo/fpcLogo.jpg",
+        imageAlt: "First Presbyterian Church Logo",
+        organizerURI: "https://www.findlayfpc.org",
+        socials: {
+            facebook: "https://www.facebook.com/findlayfpc",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
         name: "Michaels",
         imageURI: "/partnerLogo/mLogo.png",
         imageAlt: "Michaels Logo",
