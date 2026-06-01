@@ -73,6 +73,7 @@ export default function RootLayout({
           </div>
           <div className="grow"></div>
           <div><Link className="ml-5" href="/events">Events</Link></div>
+          <div><Link className="ml-5" href="/passport">Passport</Link></div>
           <div><Link className="ml-5" href="/volunteer">Volunteer</Link></div>
           <div><Link className="ml-5" href="/about">About</Link></div>
         </header>
