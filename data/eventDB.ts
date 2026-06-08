@@ -64,14 +64,19 @@ community. Special discounts will be available for one night only!
     },
    {
         name: "Pride Mixer",
-        description: `Come and celebrate your Pride and your community in style. Appetizers provided with a cash bar available for mocktails and alcoholic beverages.`,
+        description: `Come and celebrate your Pride and your community in style. DJ T.O. Rockin' the Beats! 
+        
+        Appetizers provided with a cash bar available for mocktails and alcoholic beverages.
+        
+        Exchange your pride passport for a free raffle ticket or buy more for increased changes to win prizes! Proceeds benefiting City Mission!
+        `,
         startDate: new Date(2026, 5, 29, 17, 30),
         endDate: new Date(2026, 5, 29, 20, 30),
         location: "Mancy's/Hancock Hotel - 631 S Main St, Findlay, OH 45840",
         organizer: "Findlay Pride",
         organizerURI: "https://FindlayPride.com",
         //eventURI: "https://some.url/event",
-        imageURI: "/event/Mixer.png",
+        imageURI: "/event/fpMixer.jpg",
         imageAlt: "People enjoying the Mancy's patio",
         tags: ["Giving Back", "Volunteer Opt"],
         volunteerURI: "https://www.signupgenius.com/go/10C054DA5AA2EA7FAC25-64167654-community#/"

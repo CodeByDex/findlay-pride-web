@@ -13,8 +13,10 @@ function getEventsToDisplay(): Event[] {
     return (
       //Happening now
       (event.startDate <= currentDate && event.endDate >= currentDate) || 
-      //Happening in the next 72 hours
-      (event.startDate > currentDate && (event.startDate.getTime() - currentDate.getTime()) < (1000 * 60 * 60 * 72))
+      //Happening in the future 
+      (event.startDate > currentDate)
+      //Happening in the next week
+      //(event.startDate > currentDate && (event.startDate.getTime() - currentDate.getTime()) < (1000 * 60 * 60 * 24 * 7))
     );
   });
 
