@@ -195,7 +195,7 @@ Colorful outfits and decorated bikes encouraged!
 Don’t have a bike? A limited number are available to borrow; first come, first served!
 This is a free event, no registration required.
 
-<a href="https://www.facebook.com/iansdoughnuts" class="underline" target="_blank">Ian's Donuts</a> will be next door at False Chord Brewing selling Pride Themed Donuts!
+<a href="https://www.facebook.com/iansdoughnuts" class="underline" target="_blank">Ian's Doughnuts</a> will be next door at False Chord Brewing selling Pride Themed Donuts!
 `,
         startDate: new Date(2026, 5, 10, 18, 0),
         endDate: new Date(2026, 5, 10, 19, 30),
