@@ -3,7 +3,7 @@ import { Partner } from "./type/Partner";
 const partners: Partner[] = [
     // {
     //     name: "",
-    //     imageURI: "",
+    //     imageURI: "/partnerLogo/image.jpg",
     //     imageAlt: "",
     //     organizerURI: "",
     //     socials: {
@@ -14,6 +14,58 @@ const partners: Partner[] = [
     //     },
     //     highlight: false
     // },
+    {
+        name: "Ian's Donuts",
+        imageURI: "/partnerLogo/idLogo.jpg",
+        imageAlt: "Rainbow brush strokes with Ian's Doughnuts",
+       // organizerURI: "https://www.facebook.com/iansdoughnuts",
+        socials: {
+            facebook: "https://www.facebook.com/iansdoughnuts",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Silver's",
+        imageURI: "/partnerLogo/sLogo.jpg",
+        imageAlt: "Silver's Logo",
+        organizerURI: "https://silverviera.com",
+        socials: {
+            facebook: "https://www.facebook.com/silversfindlay",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
+    {
+        name: "Tiger Lily Coffee Company",
+        imageURI: "/partnerLogo/tlccLogo.jpg",
+        imageAlt: "Tiger Lily's logo",
+        //organizerURI: "https://www.facebook.com/TigerLilyCoffeeCompany",
+        socials: {
+            facebook: "https://www.facebook.com/TigerLilyCoffeeCompany",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: "https://www.instagram.com/tigerlilycoffeecompany"
+        },
+        highlight: false
+    },
+    {
+        name: "Flippin' Tacos",
+        imageURI: "/partnerLogo/ftLogo.jpg",
+        imageAlt: "Flippin' Tacos Logo",
+        //organizerURI: "https://www.facebook.com/profile.php?id=100057130103319",
+        socials: {
+            facebook: "https://www.facebook.com/profile.php?id=100057130103319",
+            bluesky: undefined,
+            linkedIn: undefined,
+            instagram: undefined
+        },
+        highlight: false
+    },
     {
         name: "Hysteria Co.",
         imageURI: "/partnerLogo/hcLogo.jpg",
