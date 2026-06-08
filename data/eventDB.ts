@@ -19,6 +19,20 @@ const events: Event[] = [
 //         volunteerURI: "https://some.url/volunteer"
 //     },
    {
+        name: "Poetic Pride: Poetry Open Mic",
+        description: `Join us in the Findlay Art League gallery space for Poetic Pride, an open mic for poetry/spoken word. Bring your pieces exploring Pride, love, community, chosen family, resistance, visibility, etc. Length of time each reader has at the mic will depend on the number of readers on the night, but plan for at least 5 min each. Host/emcee will be local poet Kerry Trautman. This is a free event. Open to all ages, at attendees' discretion, as there is the potential for sensitive subject matter/language.`,
+        startDate: new Date(2026, 5, 22, 18, 0),
+        endDate: new Date(2026, 5, 22, 20, 0),
+        location: "Findlay Art League - 117 W Crawford St, Findlay, OH 45840",
+        organizer: "Findlay Art League",
+        organizerURI: "https://www.findlayartleague.org",
+        eventURI: "https://www.facebook.com/photo/?fbid=1480319574137113",
+        imageURI: "/event/falPoetry.jpg",
+        imageAlt: "Colorful background descriping the poetry event",
+        tags: ["Free to Attend"],
+        //volunteerURI: "https://some.url/volunteer"
+    },
+   {
         name: "Pride Spin Class",
         description: ``,
         startDate: new Date(2026, 5, 22, 18, 0),
@@ -108,7 +122,7 @@ Open to any youth ages 10-17 impacted by oppression, adversity, or trauma.
        // volunteerURI: "https://some.url/volunteer"
     },
    {
-        name: "Tie Dye Workshop - Colors of Pride",
+        name: "Tie Dye Workshop - Colors of Pride (Sold Out)",
         description: `Celebrate the vibrant spirit of Findlay Pride at the Findlay Art League! Join us for a hands-on, family-friendly workshop where we explore the art of resistance, joy, and identity through tie-dye. Beyond just making a mess (a controlled one!), we’ll dive into the history of 'resist-dyeing' and why the rainbow became a worldwide symbol for the LGBTQ+ community. No experience necessary! You’ll leave with wearable art and a deeper connection to our local community.
 Proceeds to benefit Findlay Art League, Equitas Health and Buckeye Flame
 
@@ -127,7 +141,7 @@ All materials provided`,
         //volunteerURI: "https://some.url/volunteer"
     },
    {
-        name: "Drag Bingo",
+        name: "Drag Bingo (Sold Out)",
         description: `Join us in the False Chord taproom for Drag Bingo on Sunday, June 14, from 5-8 p.m. (doors are at 4 p.m.). This event is co-sponsored by Findlay Pride. We will be accepting cash donations for The Loft at the event.
 Prizes / Giveaways will be available for Bingo winners.
 This event is 21+
@@ -172,8 +186,11 @@ This is a free event, no registration required.
         description: `Meet up at the shop around 6:00 pm, then we hit the streets around 6:30 pm for a goofy, joy-filled cruise around downtown! Expect an easy hour-long ride.
 Got a cruiser, BMX, old mountain bike, or something weird with wheels? Perfect. This isn’t a cycling ride — it’s a rolling community hang. If you have a bike, you belong.
 Colorful outfits and decorated bikes encouraged!
+
 Don’t have a bike? A limited number are available to borrow; first come, first served!
 This is a free event, no registration required.
+
+<a href="https://www.facebook.com/iansdoughnuts" class="underline" target="_blank">Ian's Donuts</a> will be next door at False Chord Brewing selling Pride Themed Donuts!
 `,
         startDate: new Date(2026, 5, 10, 18, 0),
         endDate: new Date(2026, 5, 10, 19, 30),
